@@ -22,8 +22,8 @@ const client = createClient({
   chain: chains.studionet,
 });
 
-const RL_ADDR = ACTIVE_CONTRACTS.RoadmapLedger.address;
-const TG_ADDR = ACTIVE_CONTRACTS.TrancheGate.address;
+const RL_ADDR = ACTIVE_CONTRACTS.RoadmapLedger.address as `0x${string}`;
+const TG_ADDR = ACTIVE_CONTRACTS.TrancheGate.address as `0x${string}`;
 
 function safeParse<T>(raw: any, fallback: T): T {
   if (typeof raw !== 'string') return fallback;
@@ -37,11 +37,11 @@ function safeParse<T>(raw: any, fallback: T): T {
 export async function getRoadmap(roadmapId: string): Promise<Roadmap | null> {
   if (!roadmapId) return null;
   try {
-    const raw = await client.readContract({
+    const raw = (await client.readContract({
       address: RL_ADDR,
       functionName: 'get_roadmap',
       args: [String(roadmapId).trim()],
-    });
+    })) as string;
     if (!raw || raw === '""') return null;
     return safeParse<Roadmap | null>(raw, null);
   } catch (err) {
@@ -52,14 +52,14 @@ export async function getRoadmap(roadmapId: string): Promise<Roadmap | null> {
 
 export async function listRoadmaps(limit: number = 20): Promise<Roadmap[]> {
   try {
-    const rawList = await client.readContract({
+    const rawList = (await client.readContract({
       address: RL_ADDR,
       functionName: 'list_roadmaps',
       args: [limit],
-    });
+    })) as any[];
     if (!Array.isArray(rawList)) return [];
     return rawList
-      .map((item: string) => safeParse<Roadmap | null>(item, null))
+      .map((item: any) => safeParse<Roadmap | null>(item, null))
       .filter((r): r is Roadmap => r !== null && Boolean(r.id));
   } catch (err) {
     console.warn('Failed to list roadmaps:', err);
@@ -70,14 +70,14 @@ export async function listRoadmaps(limit: number = 20): Promise<Roadmap[]> {
 export async function listRoadmapsByOwner(owner: string, limit: number = 20): Promise<Roadmap[]> {
   if (!owner) return [];
   try {
-    const rawList = await client.readContract({
+    const rawList = (await client.readContract({
       address: RL_ADDR,
       functionName: 'list_roadmaps_by_owner',
       args: [owner.toLowerCase().trim(), limit],
-    });
+    })) as any[];
     if (!Array.isArray(rawList)) return [];
     return rawList
-      .map((item: string) => safeParse<Roadmap | null>(item, null))
+      .map((item: any) => safeParse<Roadmap | null>(item, null))
       .filter((r): r is Roadmap => r !== null && Boolean(r.id));
   } catch (err) {
     console.warn(`Failed to list roadmaps for owner ${owner}:`, err);
@@ -88,11 +88,11 @@ export async function listRoadmapsByOwner(owner: string, limit: number = 20): Pr
 export async function getVerification(verificationId: string): Promise<Verification | null> {
   if (!verificationId) return null;
   try {
-    const raw = await client.readContract({
+    const raw = (await client.readContract({
       address: RL_ADDR,
       functionName: 'get_verification',
       args: [String(verificationId).trim()],
-    });
+    })) as string;
     if (!raw || raw === '""') return null;
     return safeParse<Verification | null>(raw, null);
   } catch (err) {
@@ -104,14 +104,14 @@ export async function getVerification(verificationId: string): Promise<Verificat
 export async function listVerifications(roadmapId: string, limit: number = 20): Promise<Verification[]> {
   if (!roadmapId) return [];
   try {
-    const rawList = await client.readContract({
+    const rawList = (await client.readContract({
       address: RL_ADDR,
       functionName: 'list_verifications',
       args: [String(roadmapId).trim(), limit],
-    });
+    })) as any[];
     if (!Array.isArray(rawList)) return [];
     return rawList
-      .map((item: string) => safeParse<Verification | null>(item, null))
+      .map((item: any) => safeParse<Verification | null>(item, null))
       .filter((v): v is Verification => v !== null && Boolean(v.id));
   } catch (err) {
     console.warn(`Failed to list verifications for roadmap ${roadmapId}:`, err);
@@ -124,11 +124,11 @@ export async function getMilestoneStatus(
   milestoneIndex: number
 ): Promise<MilestoneStatusResult | null> {
   try {
-    const raw = await client.readContract({
+    const raw = (await client.readContract({
       address: RL_ADDR,
       functionName: 'get_milestone_status',
       args: [String(roadmapId).trim(), milestoneIndex],
-    });
+    })) as string;
     if (!raw || raw === '""') return null;
     return safeParse<MilestoneStatusResult | null>(raw, null);
   } catch (err) {
@@ -143,11 +143,11 @@ export async function computeScore(
 ): Promise<ScoreResult> {
   const wArr = weights.map(w => Number(w));
   try {
-    const raw = await client.readContract({
+    const raw = (await client.readContract({
       address: RL_ADDR,
       functionName: 'compute_score',
       args: [JSON.stringify(wArr), JSON.stringify(statuses)],
-    });
+    })) as string;
     return safeParse<ScoreResult>(raw, { progress_pct: '0', review_count: '0', verified_count: '0' });
   } catch (err) {
     console.warn('Failed to compute score on chain:', err);
@@ -157,11 +157,11 @@ export async function computeScore(
 
 export async function getLedgerStats(): Promise<LedgerStats> {
   try {
-    const raw = await client.readContract({
+    const raw = (await client.readContract({
       address: RL_ADDR,
       functionName: 'get_stats',
       args: [],
-    });
+    })) as string;
     return safeParse<LedgerStats>(raw, { total_roadmaps: '0', total_verifications: '0' });
   } catch (err) {
     console.warn('Failed to get ledger stats:', err);
@@ -171,11 +171,11 @@ export async function getLedgerStats(): Promise<LedgerStats> {
 
 export async function getContractLimits(): Promise<ContractLimits | null> {
   try {
-    const raw = await client.readContract({
+    const raw = (await client.readContract({
       address: RL_ADDR,
       functionName: 'get_limits',
       args: [],
-    });
+    })) as string;
     return safeParse<ContractLimits | null>(raw, null);
   } catch (err) {
     console.warn('Failed to get contract limits:', err);
@@ -186,11 +186,11 @@ export async function getContractLimits(): Promise<ContractLimits | null> {
 export async function getGrant(grantId: string): Promise<Grant | null> {
   if (!grantId) return null;
   try {
-    const raw = await client.readContract({
+    const raw = (await client.readContract({
       address: TG_ADDR,
       functionName: 'get_grant',
       args: [String(grantId).trim()],
-    });
+    })) as string;
     if (!raw || raw === '""') return null;
     return safeParse<Grant | null>(raw, null);
   } catch (err) {
@@ -202,14 +202,14 @@ export async function getGrant(grantId: string): Promise<Grant | null> {
 export async function listGrantsByFunder(funder: string, limit: number = 20): Promise<Grant[]> {
   if (!funder) return [];
   try {
-    const rawList = await client.readContract({
+    const rawList = (await client.readContract({
       address: TG_ADDR,
       functionName: 'list_grants_by_funder',
       args: [funder.toLowerCase().trim(), limit],
-    });
+    })) as any[];
     if (!Array.isArray(rawList)) return [];
     return rawList
-      .map((item: string) => safeParse<Grant | null>(item, null))
+      .map((item: any) => safeParse<Grant | null>(item, null))
       .filter((g): g is Grant => g !== null && Boolean(g.id));
   } catch (err) {
     console.warn(`Failed to list grants for funder ${funder}:`, err);
@@ -220,14 +220,14 @@ export async function listGrantsByFunder(funder: string, limit: number = 20): Pr
 export async function listGrantsByRecipient(recipient: string, limit: number = 20): Promise<Grant[]> {
   if (!recipient) return [];
   try {
-    const rawList = await client.readContract({
+    const rawList = (await client.readContract({
       address: TG_ADDR,
       functionName: 'list_grants_by_recipient',
       args: [recipient.toLowerCase().trim(), limit],
-    });
+    })) as any[];
     if (!Array.isArray(rawList)) return [];
     return rawList
-      .map((item: string) => safeParse<Grant | null>(item, null))
+      .map((item: any) => safeParse<Grant | null>(item, null))
       .filter((g): g is Grant => g !== null && Boolean(g.id));
   } catch (err) {
     console.warn(`Failed to list grants for recipient ${recipient}:`, err);
@@ -237,11 +237,11 @@ export async function listGrantsByRecipient(recipient: string, limit: number = 2
 
 export async function isTrancheOpen(grantId: string, trancheIndex: number): Promise<TrancheOpenStatus> {
   try {
-    const raw = await client.readContract({
+    const raw = (await client.readContract({
       address: TG_ADDR,
       functionName: 'is_tranche_open',
       args: [String(grantId).trim(), trancheIndex],
-    });
+    })) as string;
     return safeParse<TrancheOpenStatus>(raw, { open: 'false', reason: 'UNKNOWN' });
   } catch (err) {
     console.warn(`Failed to check is_tranche_open (${grantId}, ${trancheIndex}):`, err);
@@ -252,11 +252,11 @@ export async function isTrancheOpen(grantId: string, trancheIndex: number): Prom
 export async function getBalanceOf(address: string): Promise<string> {
   if (!address) return '0';
   try {
-    const raw = await client.readContract({
+    const raw = (await client.readContract({
       address: TG_ADDR,
       functionName: 'balance_of',
       args: [address.toLowerCase().trim()],
-    });
+    })) as string;
     return String(raw || '0');
   } catch (err) {
     console.warn(`Failed to get balance for ${address}:`, err);
@@ -266,11 +266,11 @@ export async function getBalanceOf(address: string): Promise<string> {
 
 export async function getGateStats(): Promise<GateStats> {
   try {
-    const raw = await client.readContract({
+    const raw = (await client.readContract({
       address: TG_ADDR,
       functionName: 'get_stats',
       args: [],
-    });
+    })) as string;
     return safeParse<GateStats>(raw, { total_escrow: '0', total_grants: '0', total_minted: '0' });
   } catch (err) {
     console.warn('Failed to get gate stats:', err);

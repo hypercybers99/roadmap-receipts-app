@@ -42,7 +42,7 @@ export const TxStatusModal: React.FC<TxStatusModalProps> = ({
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-none"
+      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60"
       role="dialog"
       aria-modal="true"
       aria-labelledby="tx-modal-title"

@@ -4,7 +4,7 @@
  * Fully compliant with Studionet receipt success rules and decoded error reporting.
  */
 
-import { createClient, chains, type Address } from 'genlayer-js';
+import { createClient, chains } from 'genlayer-js';
 import { ACTIVE_CONTRACTS, NETWORK } from '../config/deployments';
 import { classifyReceipt, type ClassifiedReceipt } from '../lib/receipts';
 import { getLedgerStats, getGateStats } from './readClient';
@@ -90,7 +90,7 @@ export function getBrowserClient(userAddress?: string) {
     return createClient({
       chain: chains.studionet,
       provider: window.ethereum,
-      account: (userAddress || undefined) as Address | undefined,
+      account: (userAddress || undefined) as `0x${string}` | undefined,
     });
   }
   return createClient({
@@ -127,9 +127,10 @@ export async function executeWrite(options: {
   const client = getBrowserClient(userAddress);
 
   const txHash = await client.writeContract({
-    address: address as Address,
+    address: address as `0x${string}`,
     functionName,
     args,
+    value: BigInt(0),
   });
 
   const receipt = await client.waitForTransactionReceipt({
