@@ -4,7 +4,7 @@
 - **Deployment URL**: https://hypercybers99.github.io/roadmap-receipts-app/
 - **Target Network**: GenLayer Studionet (Chain ID 61999, RPC https://studio.genlayer.com/api)
 - **Status**: Preview
-- **Application Git HEAD**: `8c4f2d92074e2c40a5410026861dbcbaa203dfaa` (10 commits)
+- **Application Git HEAD**: `2ca961c6e11f9fe38df5cfa67a077479eebe815f` (11 commits)
 - **Application Release Tag**: `roadmap-receipts-app-v1`
 - **Contract Source Repository**: `hypercybers99/roadmap-receipts-genlayer` at commit `634a6b148326da078ff072a01bef88543a205161` (tag `rr-v1b`)
 
