@@ -21,15 +21,22 @@ export interface ClassifiedReceipt {
 export function decodeBase64Safe(input: string): string {
   if (!input || typeof input !== 'string') return '';
   const clean = input.trim();
-  try {
-    if (typeof window !== 'undefined' && typeof window.atob === 'function') {
-      return window.atob(clean);
+  // If it contains spaces, it is already plain text, not base64
+  if (clean.includes(' ')) {
+    return clean;
+  }
+  // If valid base64 pattern and length multiple of 4
+  if (/^[A-Za-z0-9+/=]+$/.test(clean) && clean.length % 4 === 0) {
+    try {
+      const decoded = typeof window !== 'undefined' && typeof window.atob === 'function'
+        ? window.atob(clean)
+        : Buffer.from(clean, 'base64').toString('utf8');
+      if (/^[\x20-\x7E\r\n\t]+$/.test(decoded)) {
+        return decoded;
+      }
+    } catch {
+      // not base64
     }
-    if (typeof Buffer !== 'undefined') {
-      return Buffer.from(clean, 'base64').toString('utf8');
-    }
-  } catch {
-    // If not valid base64, return original
   }
   return clean;
 }

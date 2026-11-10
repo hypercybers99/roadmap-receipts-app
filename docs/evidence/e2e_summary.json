@@ -1,0 +1,143 @@
+{
+  "executedAt": "2026-11-10T03:39:33.386Z",
+  "contracts": {
+    "RoadmapLedger": "0x711FFC1C4c6ACBea0E7B74B0cd40AF5A5fA5ADa4",
+    "TrancheGate": "0x5D869C10F523fdD2E3b0Db0CD5CA0107b25b4026"
+  },
+  "accounts": {
+    "funder": "0x3C27f37C3a7117f431B78398E1895141c2936B11",
+    "recipient": "0xDbFe32335A636EcEffAd8571eA144Fd7D389F036",
+    "attacker": "0x12CB7EE7A98E07266248e8C279865fA5aEbe1BF7"
+  },
+  "dynamicIds": {
+    "roadmapIdA": "16",
+    "roadmapIdB": "17",
+    "grantId": "3"
+  },
+  "conservation": {
+    "funder": 300,
+    "recipient": 700,
+    "escrow": 0,
+    "total": 1000,
+    "holds": true
+  },
+  "receipts": [
+    {
+      "action": "attacker_reclaim_refusal",
+      "hash": "0x0462c990528054bc37af99b91154c88bac21c00d70cc7704f272f18d977c78af",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "ERROR",
+      "latency_seconds": "5.06",
+      "decoded_payload": "not grant funder"
+    },
+    {
+      "action": "claim_demo_credits",
+      "hash": "0x0435c2091cb86d64c7d43440f89c289f0dd9bb3f5fcca144e51f478ac23db2d1",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "latency_seconds": "8.42",
+      "decoded_payload": "1000"
+    },
+    {
+      "action": "create_grant",
+      "hash": "0x2bd4184936a594531adc05f44cce6966c33c3eade6a25e5866a9f5227c899c35",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "latency_seconds": "8.47",
+      "decoded_payload": "3"
+    },
+    {
+      "action": "create_roadmap_1",
+      "hash": "0xf4e43609e900ab5bb206995c32055819bb77b84b35e6ddba87d2592742304136",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "latency_seconds": "9.64",
+      "decoded_payload": "16"
+    },
+    {
+      "action": "create_roadmap_2",
+      "hash": "0x5849e1599c05c0cc538e9f85b7b7f47b23f8e1cd64cc27fef6aed41ff1103ffd",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "latency_seconds": "8.46",
+      "decoded_payload": "17"
+    },
+    {
+      "action": "duplicate_reclaim_refusal",
+      "hash": "0xbef37727feef852a403fd478f6c8e2778e772bfccdff61328d4427d85c8db4c7",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "ERROR",
+      "latency_seconds": "8.33",
+      "decoded_payload": "tranche already reclaimed"
+    },
+    {
+      "action": "reclaim_delivered_refusal",
+      "hash": "0xa3457dd14af58091564882771b16a4738a11ea863ba327fc4d27b7b0b051476c",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "ERROR",
+      "latency_seconds": "8.53",
+      "decoded_payload": "tranche already released"
+    },
+    {
+      "action": "reclaim_missed_success",
+      "hash": "0x5bf9b25ec9f80baede85bf7c7d0384c708c35c3f51d34b7fef31e74dccd0be14",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "latency_seconds": "8.34",
+      "decoded_payload": "300"
+    },
+    {
+      "action": "release_tranche_0_success",
+      "hash": "0xe896211670a9f2368cb2e114929c3db9dd6ea32c155f35756dbc1c3ed554c9e4",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "latency_seconds": "8.34",
+      "decoded_payload": "300"
+    },
+    {
+      "action": "release_tranche_1_success",
+      "hash": "0xea62bc05cf0fd6a98e24a6ae39ad60f259f52f91107c955e7217e55aaa1b4dcd",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "latency_seconds": "8.56",
+      "decoded_payload": "700"
+    },
+    {
+      "action": "verify_milestone_0",
+      "hash": "0xba2f5642f8ecca0b97a67dffaf44b37977687ca9f3fe79ff60d63db731752765",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "latency_seconds": "11.85",
+      "decoded_payload": "32"
+    },
+    {
+      "action": "verify_milestone_1",
+      "hash": "0xb92052383aae117fc1296fdf27faca6c7d844123999238b0b36d57b712a15795",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "latency_seconds": "11.72",
+      "decoded_payload": "33"
+    },
+    {
+      "action": "verify_milestone_2",
+      "hash": "0xccf436f5077313cb2837f12d5516295f79771d8c30919b4e3831c2b43d49b264",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "latency_seconds": "18.21",
+      "decoded_payload": "34"
+    }
+  ]
+}
