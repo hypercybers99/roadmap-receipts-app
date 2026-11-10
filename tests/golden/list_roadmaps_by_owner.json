@@ -1,0 +1,100 @@
+[
+  {
+    "id": "2",
+    "milestones": [
+      {
+        "criteria": [
+          "The release notes state that the database engine is deployed."
+        ],
+        "evidence_dir": "/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/",
+        "evidence_history": [
+          "https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-delivered.md"
+        ],
+        "evidence_host": "raw.githubusercontent.com",
+        "evidence_url": "https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-delivered.md",
+        "index": "0",
+        "latest_status": "PENDING",
+        "latest_verification_id": "",
+        "title": "Core Infrastructure",
+        "weight": "10"
+      }
+    ],
+    "milestones_hash": "85e60a5efb174488b05bf553386edb00e8add574d69ca886fd8949a85d3f379d",
+    "name": "Secondary Project Roadmap",
+    "owner": "0xaf562fd5c8910e1c2e0e946f085cc6eef2a0cf47",
+    "progress_pct": "0",
+    "review_count": "0",
+    "schema_version": "1",
+    "seq": "1",
+    "verified_count": "0"
+  },
+  {
+    "id": "1",
+    "milestones": [
+      {
+        "criteria": [
+          "A release note states that offline sync is available to all users.",
+          "The release note names the version number that includes offline sync."
+        ],
+        "evidence_dir": "/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/",
+        "evidence_history": [
+          "https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-delivered.md",
+          "https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-delivered.html"
+        ],
+        "evidence_host": "raw.githubusercontent.com",
+        "evidence_url": "https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-delivered.html",
+        "index": "0",
+        "latest_status": "DELIVERED",
+        "latest_verification_id": "4",
+        "title": "Offline sync",
+        "weight": "3"
+      },
+      {
+        "criteria": [
+          "The documentation lists endpoints for notes and for tags.",
+          "A release note states that the API is generally available and not in beta."
+        ],
+        "evidence_dir": "/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/",
+        "evidence_history": [
+          "https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m2-partial.md",
+          "https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m2-delivered.md"
+        ],
+        "evidence_host": "raw.githubusercontent.com",
+        "evidence_url": "https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m2-delivered.md",
+        "index": "1",
+        "latest_status": "DELIVERED",
+        "latest_verification_id": "5",
+        "title": "Public API",
+        "weight": "5"
+      },
+      {
+        "criteria": [
+          "A published audit report is linked from the page."
+        ],
+        "evidence_dir": "/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/",
+        "evidence_history": [
+          "https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m3-missed.md",
+          "https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m3-injection.md",
+          "https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/nonexistent_lifecycle.md",
+          "https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m3-too-short.md",
+          "https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m3-missed.md"
+        ],
+        "evidence_host": "raw.githubusercontent.com",
+        "evidence_url": "https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m3-missed.md",
+        "index": "2",
+        "latest_status": "REVIEW",
+        "latest_verification_id": "6",
+        "title": "Security audit published",
+        "weight": "2"
+      }
+    ],
+    "milestones_hash": "ad355d7cb90f8e15ae6bc81fafa462161f3eafbe0f25f89448fd40354e363528",
+    "name": "Lumen Notes Roadmap",
+    "owner": "0xaf562fd5c8910e1c2e0e946f085cc6eef2a0cf47",
+    "progress_pct": "80",
+    "review_count": "1",
+    "schema_version": "1",
+    "seq": "13",
+    "verified_count": "3"
+  }
+]

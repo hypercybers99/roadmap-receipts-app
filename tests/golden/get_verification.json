@@ -1,0 +1,26 @@
+{
+  "caller": "0xaf562fd5c8910e1c2e0e946f085cc6eef2a0cf47",
+  "effective_labels": [
+    "YES",
+    "YES"
+  ],
+  "evidence_url_used": "https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-delivered.md",
+  "gate": "",
+  "id": "1",
+  "labels": [
+    "YES",
+    "YES"
+  ],
+  "leader_reported": "true",
+  "milestone_index": "0",
+  "norm_hash16": "3685c7e69d9801e1",
+  "quotes": [
+    "Release v0.2.0 ships offline sync to all users.",
+    "Release v0.2.0 ships offline sync to all users."
+  ],
+  "roadmap_id": "1",
+  "schema_version": "1",
+  "seq": "1",
+  "status": "DELIVERED",
+  "tripwire": false
+}

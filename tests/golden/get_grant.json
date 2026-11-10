@@ -1,0 +1,33 @@
+{
+  "escrow_balance": "200",
+  "funder": "0xaf562fd5c8910e1c2e0e946f085cc6eef2a0cf47",
+  "id": "1",
+  "milestones_hash": "ad355d7cb90f8e15ae6bc81fafa462161f3eafbe0f25f89448fd40354e363528",
+  "recipient": "0xb808e72ada80f50a83fd91bcb0ef56ffbb66fc98",
+  "roadmap_id": "1",
+  "schema_version": "1",
+  "total_amount": "900",
+  "tranches": [
+    {
+      "amount": "300",
+      "milestone_index": 0,
+      "reclaimed": false,
+      "released": true,
+      "tranche_index": 0
+    },
+    {
+      "amount": "400",
+      "milestone_index": 1,
+      "reclaimed": false,
+      "released": true,
+      "tranche_index": 1
+    },
+    {
+      "amount": "200",
+      "milestone_index": 2,
+      "reclaimed": false,
+      "released": false,
+      "tranche_index": 2
+    }
+  ]
+}

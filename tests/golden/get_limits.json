@@ -1,0 +1,18 @@
+{
+  "max_criteria_per_milestone": "4",
+  "max_criteria_text_len": "160",
+  "max_evidence_page_bytes": "100000",
+  "max_evidence_url_len": "300",
+  "max_milestone_title_len": "80",
+  "max_milestones": "6",
+  "max_quote_len": "300",
+  "max_roadmap_name_len": "60",
+  "min_criteria_per_milestone": "1",
+  "min_criteria_text_len": "10",
+  "min_evidence_page_chars": "150",
+  "min_milestone_title_len": "5",
+  "min_milestones": "1",
+  "min_quote_norm_chars": "8",
+  "min_roadmap_name_len": "3",
+  "schema_version": "1"
+}

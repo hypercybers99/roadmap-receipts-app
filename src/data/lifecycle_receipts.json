@@ -1,0 +1,269 @@
+{
+  "_meta": {
+    "sourcePath": "docs/evidence/onchain_receipts.json",
+    "sourceCommit": "634a6b148326da078ff072a01bef88543a205161",
+    "sourceRepo": "hypercybers99/roadmap-receipts-genlayer",
+    "syncedAt": "2026-11-10T03:09:51.511Z"
+  },
+  "data": [
+    {
+      "action": "deploy_roadmap_ledger",
+      "txHash": "0xc1a3f37d7197d57a126cef7908c309e819c37dc6e9cf5fd6a5ebcd2d8f2101b2",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "latency_seconds": "7.71"
+    },
+    {
+      "action": "deploy_tranche_gate",
+      "txHash": "0x24532e069b090bc7dae24a6dcff25bec180b6af2f4f099491c46de6aae772da9",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "latency_seconds": "8.11"
+    },
+    {
+      "action": "create_roadmap_1",
+      "txHash": "0x043226bfb0f6f1a03dc0ba0de6207027f873b8fbdf8609c17f8bbcc9b9b1e1e2",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "payload": null,
+      "latency_seconds": "8.83"
+    },
+    {
+      "action": "verify_m0_delivered_md",
+      "txHash": "0x8f090d58cfb6fb959155b5bc9445a272fcc8fa716f800538609f7c9d726a44ef",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "payload": null,
+      "latency_seconds": "21.03"
+    },
+    {
+      "action": "verify_duplicate_expected_error",
+      "txHash": "0x08b0f930f4e66910966b6bb49ea16fb07dcf6a3cf7622c7f03c9836996da000c",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "ERROR",
+      "payload": "duplicate observation: already recorded in verification 1",
+      "latency_seconds": "28.14"
+    },
+    {
+      "action": "verify_m1_partial_md",
+      "txHash": "0xf9bf383879d8d0c611e52d652cbc22cb5dee4fbffb9a0ac66454adb951f0e61c",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "payload": null,
+      "latency_seconds": "21.52"
+    },
+    {
+      "action": "verify_m2_missed_md",
+      "txHash": "0xe576e98538eb6fada656c04853e823149376c55c494c2aae91870cc9af07a17f",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "payload": null,
+      "latency_seconds": "21.18"
+    },
+    {
+      "action": "update_evidence_m0_html",
+      "txHash": "0x9631f8cc880d912006a1dad105ac795453fcc9ae716490bbc8c0f9b756de0587",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "payload": null,
+      "latency_seconds": "8.38"
+    },
+    {
+      "action": "verify_m0_delivered_html",
+      "txHash": "0xdcad2f9fa26ea2da88a2d54c7a269782fd916641c10700ce3e9ef427bb025f9b",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "payload": null,
+      "latency_seconds": "15.10"
+    },
+    {
+      "action": "update_evidence_m1_delivered",
+      "txHash": "0x6d5276cce2abf75ba5dff71de96e153990aa39abf5700dfd5b4f4fd720e166fe",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "payload": null,
+      "latency_seconds": "8.46"
+    },
+    {
+      "action": "verify_m1_delivered_md",
+      "txHash": "0x62d6f9c893f37434a55f36cec3062305368380b3d7f28c345d1013f093114c87",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "payload": null,
+      "latency_seconds": "21.65"
+    },
+    {
+      "action": "update_evidence_m2_injection",
+      "txHash": "0xea5117af0f520587742b4399307598fb6ec4ff088840767b89441f6838619801",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "payload": null,
+      "latency_seconds": "8.42"
+    },
+    {
+      "action": "verify_m2_injection_tripwire",
+      "txHash": "0x525f2fbfc8bb8540b269ef5fc7bd0ebdac1cad63dee36e9036190f644a5c3e2c",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "payload": null,
+      "latency_seconds": "14.95"
+    },
+    {
+      "action": "update_evidence_not_owner_err",
+      "txHash": "0x3b27db37f30995fd8cf3d6777d4c4e8a37af18b8cc2f052afc28735f9c8911fd",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "ERROR",
+      "payload": "not roadmap owner",
+      "latency_seconds": "8.27"
+    },
+    {
+      "action": "update_evidence_host_mismatch_err",
+      "txHash": "0x5884c644a6a8d6da273ce72160aede72b3a3d52404afb666cbdde73915c7d4b8",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "ERROR",
+      "payload": "host or directory mismatch",
+      "latency_seconds": "8.25"
+    },
+    {
+      "action": "update_evidence_dir_mismatch_err",
+      "txHash": "0x93704b783a0a9194621b9ab82a1232d2478d458c267b0800885aa8244c72318b",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "ERROR",
+      "payload": "host or directory mismatch",
+      "latency_seconds": "8.51"
+    },
+    {
+      "action": "update_evidence_to_404_url",
+      "txHash": "0x98cc6507365962bc510315c9a618b4fb802f4a9ce1fd50f9a86b719e02f6aff4",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "payload": null,
+      "latency_seconds": "8.36"
+    },
+    {
+      "action": "verify_404_url_expected_err",
+      "txHash": "0x658bd8559ee10acd1187d55dd31b5cc2e1ea8d5c676d55e79f441bc2a82f0bf3",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "ERROR",
+      "payload": "HTTP status not 200: 404",
+      "latency_seconds": "14.91"
+    },
+    {
+      "action": "update_evidence_to_too_short",
+      "txHash": "0x991cf3ed5bf5b0e576e3442dc49cf31b608db2b3686c530d28f12d7c1c7ccddf",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "payload": null,
+      "latency_seconds": "8.34"
+    },
+    {
+      "action": "verify_too_short_expected_err",
+      "txHash": "0x1e7c2edec199c6db76f31a3d5c403b5be0e71e169bc2bbb0c51c5ec97b55ef4c",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "ERROR",
+      "payload": "page unreadable: text under 150 characters",
+      "latency_seconds": "14.65"
+    },
+    {
+      "action": "update_evidence_restore_m2",
+      "txHash": "0x1deda52af34738bd7571333f347afdda594cd34ace068f99af90787360bb4823",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "payload": null,
+      "latency_seconds": "8.63"
+    },
+    {
+      "action": "verify_m2_reset_missed",
+      "txHash": "0x52dcbe9025e65b35b67ebda3ffe3262f5d938db91ac4848655dd8fe9a49c1411",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "ERROR",
+      "payload": "duplicate observation: already recorded in verification 3",
+      "latency_seconds": "21.14"
+    },
+    {
+      "action": "create_roadmap_2",
+      "txHash": "0xce7d023d1a38a178f6586e7acb9de9d3fe5fa66005c2019dc8c5998c86a6d139",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "payload": null,
+      "latency_seconds": "8.45"
+    },
+    {
+      "action": "gate_claim_demo_credits",
+      "txHash": "0x917715c09165ca7726b9dcbeb520ce7c7f7ed150512140d72ccca816f6692c69",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "payload": null,
+      "latency_seconds": "8.49"
+    },
+    {
+      "action": "gate_create_grant_1",
+      "txHash": "0x9da09e7fab5cb7d632cb3334b522c48fb385fdeaa77e2de0c2567ed9aae5ba00",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "payload": null,
+      "latency_seconds": "8.28"
+    },
+    {
+      "action": "gate_release_tranche_0",
+      "txHash": "0x9066ea0f93cd8cbdb3b18758f24fa46e5c191a26b128d9f12061fd7bf468fd4e",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "payload": null,
+      "latency_seconds": "8.43"
+    },
+    {
+      "action": "gate_duplicate_release_expected_err",
+      "txHash": "0xcd8008d903db6798372b8636cf1ded67c0b11eb63251aad2e48d1f6ddda35e37",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "ERROR",
+      "payload": "tranche already released",
+      "latency_seconds": "8.23"
+    },
+    {
+      "action": "gate_release_tranche_1",
+      "txHash": "0x7e65a3b56a44daa8b1f7ed4372fcfcef8bf6f48388289886b4c4847823779c18",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "SUCCESS",
+      "payload": null,
+      "latency_seconds": "8.42"
+    },
+    {
+      "action": "gate_reclaim_tranche_2",
+      "txHash": "0x879af6bfcc571fb69669708da761f358d9142128bc56fcd6e17d76e3bcaa75dc",
+      "status_name": "ACCEPTED",
+      "result_name": "MAJORITY_AGREE",
+      "leader_result": "ERROR",
+      "payload": "cannot reclaim: milestone status is review",
+      "latency_seconds": "8.30"
+    }
+  ]
+}

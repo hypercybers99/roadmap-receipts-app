@@ -1,0 +1,152 @@
+[
+  {
+    "caller": "0xaf562fd5c8910e1c2e0e946f085cc6eef2a0cf47",
+    "effective_labels": [
+      "UNCLEAR"
+    ],
+    "evidence_url_used": "https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m3-injection.md",
+    "gate": "TRIPWIRE",
+    "id": "6",
+    "labels": [
+      "UNCLEAR"
+    ],
+    "leader_reported": "true",
+    "milestone_index": "2",
+    "norm_hash16": "5857b0b6f0af71c7",
+    "quotes": [
+      ""
+    ],
+    "roadmap_id": "1",
+    "schema_version": "1",
+    "seq": "1",
+    "status": "REVIEW",
+    "tripwire": true
+  },
+  {
+    "caller": "0xaf562fd5c8910e1c2e0e946f085cc6eef2a0cf47",
+    "effective_labels": [
+      "YES",
+      "YES"
+    ],
+    "evidence_url_used": "https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m2-delivered.md",
+    "gate": "",
+    "id": "5",
+    "labels": [
+      "YES",
+      "YES"
+    ],
+    "leader_reported": "true",
+    "milestone_index": "1",
+    "norm_hash16": "553f6069894460c6",
+    "quotes": [
+      "The documentation lists endpoints for notes at `/api/v1/notes` and endpoints for tags at `/api/v1/tags` for full external workspace management.",
+      "A release note states that the API is generally available and not in beta."
+    ],
+    "roadmap_id": "1",
+    "schema_version": "1",
+    "seq": "1",
+    "status": "DELIVERED",
+    "tripwire": false
+  },
+  {
+    "caller": "0xaf562fd5c8910e1c2e0e946f085cc6eef2a0cf47",
+    "effective_labels": [
+      "YES",
+      "YES"
+    ],
+    "evidence_url_used": "https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-delivered.html",
+    "gate": "",
+    "id": "4",
+    "labels": [
+      "YES",
+      "YES"
+    ],
+    "leader_reported": "true",
+    "milestone_index": "0",
+    "norm_hash16": "53a2463fcd96ed91",
+    "quotes": [
+      "Our team announced that \"Release v0.2.0 ships offline sync to all users.\"",
+      "Our team announced that \"Release v0.2.0 ships offline sync to all users.\""
+    ],
+    "roadmap_id": "1",
+    "schema_version": "1",
+    "seq": "1",
+    "status": "DELIVERED",
+    "tripwire": false
+  },
+  {
+    "caller": "0xaf562fd5c8910e1c2e0e946f085cc6eef2a0cf47",
+    "effective_labels": [
+      "NO"
+    ],
+    "evidence_url_used": "https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m3-missed.md",
+    "gate": "",
+    "id": "3",
+    "labels": [
+      "NO"
+    ],
+    "leader_reported": "true",
+    "milestone_index": "2",
+    "norm_hash16": "df0553b68b35fc33",
+    "quotes": [
+      ""
+    ],
+    "roadmap_id": "1",
+    "schema_version": "1",
+    "seq": "1",
+    "status": "MISSED",
+    "tripwire": false
+  },
+  {
+    "caller": "0xaf562fd5c8910e1c2e0e946f085cc6eef2a0cf47",
+    "effective_labels": [
+      "PARTIAL",
+      "NO"
+    ],
+    "evidence_url_used": "https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m2-partial.md",
+    "gate": "",
+    "id": "2",
+    "labels": [
+      "PARTIAL",
+      "NO"
+    ],
+    "leader_reported": "true",
+    "milestone_index": "1",
+    "norm_hash16": "95ddebfb0b418dee",
+    "quotes": [
+      "Documentation lists endpoints for notes at `/api/v1/notes` and endpoints for tags at `/api/v1/tags`.",
+      ""
+    ],
+    "roadmap_id": "1",
+    "schema_version": "1",
+    "seq": "1",
+    "status": "PARTIAL",
+    "tripwire": false
+  },
+  {
+    "caller": "0xaf562fd5c8910e1c2e0e946f085cc6eef2a0cf47",
+    "effective_labels": [
+      "YES",
+      "YES"
+    ],
+    "evidence_url_used": "https://raw.githubusercontent.com/hypercybers99/roadmap-receipts-fixtures/c83e8f197f9264701f5362a8e2f13f5e185186e8/lumen/m1-delivered.md",
+    "gate": "",
+    "id": "1",
+    "labels": [
+      "YES",
+      "YES"
+    ],
+    "leader_reported": "true",
+    "milestone_index": "0",
+    "norm_hash16": "3685c7e69d9801e1",
+    "quotes": [
+      "Release v0.2.0 ships offline sync to all users.",
+      "Release v0.2.0 ships offline sync to all users."
+    ],
+    "roadmap_id": "1",
+    "schema_version": "1",
+    "seq": "1",
+    "status": "DELIVERED",
+    "tripwire": false
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "sourcePath": "docs/evidence/reclaim_snapshots.json",
+    "sourceCommit": "634a6b148326da078ff072a01bef88543a205161",
+    "sourceRepo": "hypercybers99/roadmap-receipts-genlayer",
+    "syncedAt": "2026-11-10T03:09:51.519Z"
+  },
+  "data": {
+    "after_claim": {
+      "funder_balance": "1000",
+      "recipient_balance": "0",
+      "total_escrow": "0",
+      "total_minted": "1000",
+      "sum_of_balances": "1000",
+      "conserved": true
+    },
+    "after_create_grant": {
+      "funder_balance": "100",
+      "recipient_balance": "0",
+      "total_escrow": "900",
+      "total_minted": "1000",
+      "sum_of_balances": "1000",
+      "conserved": true
+    },
+    "after_reclaim_delivered_refusal": {
+      "funder_balance": "100",
+      "recipient_balance": "0",
+      "total_escrow": "900",
+      "total_minted": "1000",
+      "sum_of_balances": "1000",
+      "conserved": true
+    },
+    "after_reclaim_review_refusal": {
+      "funder_balance": "100",
+      "recipient_balance": "0",
+      "total_escrow": "900",
+      "total_minted": "1000",
+      "sum_of_balances": "1000",
+      "conserved": true
+    },
+    "after_reclaim_missed_success": {
+      "funder_balance": "300",
+      "recipient_balance": "0",
+      "total_escrow": "700",
+      "total_minted": "1000",
+      "sum_of_balances": "1000",
+      "conserved": true
+    },
+    "after_duplicate_reclaim_refusal": {
+      "funder_balance": "300",
+      "recipient_balance": "0",
+      "total_escrow": "700",
+      "total_minted": "1000",
+      "sum_of_balances": "1000",
+      "conserved": true
+    },
+    "after_release_delivered_success": {
+      "funder_balance": "300",
+      "recipient_balance": "300",
+      "total_escrow": "400",
+      "total_minted": "1000",
+      "sum_of_balances": "1000",
+      "conserved": true
+    }
+  }
+}

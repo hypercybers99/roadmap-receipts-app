@@ -1,0 +1,45 @@
+{
+  "name": "roadmap-receipts-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "sync": "node scripts/sync_deployments.mjs",
+    "sync:evidence": "node scripts/sync_evidence.mjs",
+    "verify:contracts": "node scripts/verify_contracts.mjs",
+    "scan:banned": "node scripts/scan_banned.mjs",
+    "scan:gradients": "node scripts/scan_gradients.mjs",
+    "scan:contrast": "node scripts/scan_contrast.mjs",
+    "e2e:chain": "tsx scripts/e2e_full_chain.mjs",
+    "report": "tsx scripts/generate_final_report.ts",
+    "check": "npm run build && npm run test && npm run scan:banned && npm run scan:gradients && npm run scan:contrast"
+  },
+  "dependencies": {
+    "genlayer-js": "^1.1.8",
+    "lucide-react": "^0.468.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.5"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.7",
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "playwright": "^1.49.1",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7",
+    "vitest": "^3.0.4"
+  }
+}
