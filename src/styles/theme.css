@@ -46,6 +46,7 @@ html {
   color: var(--color-ink);
   background-color: var(--color-page);
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 body {
@@ -53,6 +54,7 @@ body {
   min-height: 100vh;
   font-size: 18px;
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 /* Typography Headings */

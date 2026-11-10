@@ -181,8 +181,8 @@ export const LandingPage: React.FC = () => {
         <h2 className="text-xl font-bold text-[#22231F] dark:text-white">
           Active Contracts on GenLayer Studionet (v2)
         </h2>
-        <div className="overflow-x-auto">
-          <table className="w-full text-left text-sm">
+        <div className="w-full max-w-full overflow-x-auto">
+          <table className="w-full text-left text-sm min-w-[480px]">
             <thead className="border-b border-[#D5CDBD] dark:border-[#3D4036] text-xs uppercase font-bold text-[#5C5F56] dark:text-[#A8ABA0]">
               <tr>
                 <th className="py-2 px-3">Contract</th>
