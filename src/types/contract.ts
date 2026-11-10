@@ -44,17 +44,17 @@ export interface Verification {
   schema_version: string;
 }
 
-export interface MilestoneStatusReadback {
-  criteria: string[];
-  effective_labels: string[];
-  evidence_url: string;
-  labels: string[];
+export interface MilestoneStatusResult {
   milestone_index: string;
-  quotes: string[];
+  milestones_hash: string;
   roadmap_id: string;
   status: MilestoneStatus;
-  title: string;
-  weight: string;
+  verification_id: string;
+}
+
+export interface BalanceResult {
+  address: string;
+  balance: string;
 }
 
 export interface ScoreResult {
