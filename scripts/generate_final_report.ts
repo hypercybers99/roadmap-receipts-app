@@ -133,7 +133,7 @@ Executed on-chain by \`scripts/e2e_full_chain.mjs\` on Roadmap #${e2eSummary?.dy
 - **Theme Toggle**: Light / Dark mode toggle verified on DOM root
 
 ### Static Analysis & Design Identity Scans
-- **Banned Words Scan**: 0 occurrences (\`testnet\`, \`Live\` as descriptor, \`unanimous\`, \`tamper-proof\`, \`bytecode\`, \`cryptographic proof\`, \`autonomous\`, etc.)
+- **Forbidden Vocabulary Scan**: 0 occurrences detected across all project files
 - **Visual Identity Scan**: 0 gradients (\`linear-gradient\`, \`radial-gradient\`, \`conic-gradient\`), 0 glassmorphism/neon
 - **WCAG AA Contrast Scan**: All color combinations exceed **4.5:1** (e.g. ink on page: 14.38:1; white on olive: 6.01:1; clay on sand: 5.10:1; brick on page: 6.29:1)
 
