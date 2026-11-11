@@ -40,20 +40,43 @@
 | `/grants/:id` | Grant Detail | `get_grant(id)`, `is_tranche_open(id, tranche_idx)`, `balance_of(account)`, `get_roadmap(grant.roadmap_id)` | `release_tranche(id, tranche_idx)`, `reclaim_tranche(id, tranche_idx)` |
 | `/evidence` | On-Chain Evidence & Verification | Stored execution receipts, consensus outputs, decoded payloads, error translations | None (audit & readback view) |
 | `/limits` | Contract Limits & Configuration | `RoadmapLedger.get_limits()`, `TrancheGate.get_stats()` | None (audit view) |
+| `/404` | Route Fallback (404) | None | None |
 
-### Captured Visual Evidence (10 Images)
+### Captured Visual Evidence (32 Images)
 
-All screenshots captured in light and dark themes at 1280px (desktop) and 360px (mobile) viewports under `docs/screens/`:
+All 8 routes captured across 4 views (desktop 1280x800 and mobile 360x640, in light and dark themes) under `docs/screens/`:
+- `docs/screens/desktop_dark_create_grant.png`
+- `docs/screens/desktop_dark_create_roadmap.png`
+- `docs/screens/desktop_dark_evidence.png`
 - `docs/screens/desktop_dark_grant_detail.png`
 - `docs/screens/desktop_dark_landing.png`
+- `docs/screens/desktop_dark_limits.png`
+- `docs/screens/desktop_dark_not_found.png`
 - `docs/screens/desktop_dark_roadmap_detail.png`
+- `docs/screens/desktop_light_create_grant.png`
+- `docs/screens/desktop_light_create_roadmap.png`
 - `docs/screens/desktop_light_evidence.png`
 - `docs/screens/desktop_light_grant_detail.png`
 - `docs/screens/desktop_light_landing.png`
 - `docs/screens/desktop_light_limits.png`
+- `docs/screens/desktop_light_not_found.png`
 - `docs/screens/desktop_light_roadmap_detail.png`
+- `docs/screens/mobile_dark_create_grant.png`
+- `docs/screens/mobile_dark_create_roadmap.png`
+- `docs/screens/mobile_dark_evidence.png`
+- `docs/screens/mobile_dark_grant_detail.png`
 - `docs/screens/mobile_dark_landing.png`
+- `docs/screens/mobile_dark_limits.png`
+- `docs/screens/mobile_dark_not_found.png`
+- `docs/screens/mobile_dark_roadmap_detail.png`
+- `docs/screens/mobile_light_create_grant.png`
+- `docs/screens/mobile_light_create_roadmap.png`
+- `docs/screens/mobile_light_evidence.png`
+- `docs/screens/mobile_light_grant_detail.png`
 - `docs/screens/mobile_light_landing.png`
+- `docs/screens/mobile_light_limits.png`
+- `docs/screens/mobile_light_not_found.png`
+- `docs/screens/mobile_light_roadmap_detail.png`
 
 ---
 
@@ -112,13 +135,35 @@ Two roadmaps were created sequentially to prove dynamic ID resolution from recei
 
 ---
 
-## 5. Quality Audits, Standards Compliance & CI/CD Proof
+## 5. Deployed Application Browser Audit & Standards Compliance
 
-### Accessibility & Typography
-- **WCAG AA Axe-Core Violations**: 0 violations across all desktop and mobile views
-- **Base Typography**: Body font size `18px`, `line-height: 1.6`
-- **Interactive Controls**: Touch target height >= `48px`
-- **Mobile Viewport**: 0 horizontal overflow at 360px viewport width
+### Deployed Browser Audit on Application URL (https://hypercybers99.github.io/roadmap-receipts-app/)
+- **Axe-Core Engine Version**: 4.14.0
+- **Total Accessibility Violations Across All Views**: **0 violations**
+- **Raw Audit Evidence Files**: Saved in `docs/a11y/` (`*.json`)
+
+| Route | Console Errors | Body Font | 360px Overflow | Light (V/I/P) | Dark (V/I/P) | Total Violations |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `/` | 0 | 18px | 0px (None) | 0/0/37 | 0/0/37 | **0** |
+| `/roadmaps/new` | 0 | 18px | 0px (None) | 0/0/33 | 0/0/33 | **0** |
+| `/roadmaps/16` | 0 | 18px | 0px (None) | 0/0/28 | 0/0/28 | **0** |
+| `/grants/new` | 0 | 18px | 0px (None) | 0/0/37 | 0/0/37 | **0** |
+| `/grants/3` | 0 | 18px | 0px (None) | 0/0/28 | 0/0/28 | **0** |
+| `/evidence` | 0 | 18px | 0px (None) | 0/0/33 | 0/0/33 | **0** |
+| `/limits` | 0 | 18px | 0px (None) | 0/0/29 | 0/0/29 | **0** |
+| `/404` | 0 | 18px | 0px (None) | 0/0/29 | 0/0/29 | **0** |
+
+### Direct Deep Link Navigation Verification
+| Link Target | URL | Status |
+| :--- | :--- | :--- |
+| **Roadmap #16 Deep Link** | `https://hypercybers99.github.io/roadmap-receipts-app/#/roadmaps/16` | PASS (Rendered) |
+| **Grant #3 Deep Link** | `https://hypercybers99.github.io/roadmap-receipts-app/#/grants/3` | PASS (Rendered) |
+| **Evidence Deep Link** | `https://hypercybers99.github.io/roadmap-receipts-app/#/evidence` | PASS (Rendered) |
+
+### Zero-Wallet Guest Chain Read Audit
+- **Limits Page Read**: SUCCESS (Contract parameters loaded)
+- **Roadmap #16 Read**: SUCCESS (Title, criteria, and weights loaded)
+- **Grant #3 Read**: SUCCESS (Funder, recipient, and escrow balances loaded)
 
 ### Design System Compliance
 - **Gradients**: 0 gradient declarations found (`linear-gradient`, `radial-gradient`, `conic-gradient`)
@@ -126,15 +171,9 @@ Two roadmaps were created sequentially to prove dynamic ID resolution from recei
 - **Color Contrast**: All text/background combinations exceed 4.5:1 (ranging 5.10:1 to 15.33:1)
 - **Banned Vocabulary**: 0 banned words found across repository files
 
-### CI/CD Deployment Proof
-- **GitHub Actions Run ID**: `42751876851`
-- **Build & Test Job**: SUCCESS (28s)
-- **Deploy Pages Job**: SUCCESS (14s)
-- **Application URL**: https://hypercybers99.github.io/roadmap-receipts-app/
-
 ---
 
-## 6. Contract Repository Fixes (`rr-v1b`)
+## 6. Contract Repository Deliverables (`rr-v1b`)
 
 - **Repository**: `hypercybers99/roadmap-receipts-genlayer`
 - **Release Tag**: `rr-v1b`
@@ -142,7 +181,8 @@ Two roadmaps were created sequentially to prove dynamic ID resolution from recei
 - **GitHub Actions Run ID**: `42746763355` (status: completed, conclusion: success)
 - **Verified Deliverables**:
   - `docs/EXPECTED_RECLAIM.md`: Pre-registered reclaim expectations matching contract logic
-  - `docs/evidence/onchain_reclaim_receipts.json`: 6 on-chain receipts validating reclaim flow
+  - `docs/evidence/reclaim_receipts.json`: 11 on-chain receipts validating reclaim flow
+  - `docs/evidence/reclaim_snapshots.json`: 7 on-chain state readback snapshots
   - `docs/EXPECTED_VS_ACTUAL.md`: Updated without unverified latency claims
   - `scripts/verify_report_hashes.mjs`: Token verification audit with 0 errors
 

@@ -9,9 +9,9 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Col 1: System info */}
           <div className="space-y-3">
-            <h3 className="text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight">
+            <h2 className="text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight">
               Roadmap Receipts (Preview)
-            </h3>
+            </h2>
             <p className="text-sm">
               Verifiable decentralized roadmap milestones with deterministic milestone progress calculation and tranche-gated escrow enforcement on GenLayer Studionet.
             </p>
@@ -22,9 +22,9 @@ export const Footer: React.FC = () => {
 
           {/* Col 2: Active Deployments */}
           <div className="space-y-3">
-            <h3 className="text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight">
+            <h2 className="text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight">
               Active Contracts (v2)
-            </h3>
+            </h2>
             <ul className="text-xs font-mono space-y-2">
               <li>
                 <span className="font-semibold block text-[#22231F] dark:text-white">RoadmapLedger:</span>
@@ -55,9 +55,9 @@ export const Footer: React.FC = () => {
 
           {/* Col 3: Repositories & Traceability */}
           <div className="space-y-3">
-            <h3 className="text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight">
+            <h2 className="text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight">
               Audit & Traceability
-            </h3>
+            </h2>
             <ul className="text-sm space-y-1.5">
               <li>
                 <a

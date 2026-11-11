@@ -135,6 +135,7 @@ export const GrantDetailPage: React.FC = () => {
     return (
       <div className="text-center py-20 space-y-3">
         <Loader2 className="w-10 h-10 animate-spin mx-auto text-[#A0451E]" />
+        <h1 className="text-xl font-bold text-[#22231F] dark:text-[#EDECE6]">Loading Grant #{id}...</h1>
         <p className="text-sm text-[#5C5F56] dark:text-[#A8ABA0]">Loading grant #{id} from TrancheGate...</p>
       </div>
     );
@@ -144,7 +145,7 @@ export const GrantDetailPage: React.FC = () => {
     return (
       <div className="p-8 text-center rounded-lg border border-[#D5CDBD] dark:border-[#3D4036] bg-[#EEE8D8] dark:bg-[#1E201B] space-y-4">
         <AlertCircle className="w-10 h-10 mx-auto text-[#9B3A2E]" />
-        <h2 className="text-xl font-bold">Grant #{id} Not Found</h2>
+        <h1 className="text-xl font-bold text-[#22231F] dark:text-[#EDECE6]">Grant #{id} Not Found</h1>
         <p className="text-sm text-[#5C5F56] dark:text-[#A8ABA0]">
           No grant exists with this ID on TrancheGate.
         </p>

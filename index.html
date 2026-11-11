@@ -4,6 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Roadmap Receipts - Verifiable Milestone Delivery (Preview)</title>
+    <script>
+      (function() {
+        var base = '/roadmap-receipts-app';
+        var p = window.location.pathname;
+        if (p.indexOf(base) === 0) {
+          var route = p.slice(base.length);
+          if (route && route !== '/' && !window.location.hash) {
+            window.location.replace(base + '/#' + route + window.location.search);
+          }
+        }
+      })();
+    </script>
   </head>
   <body class="bg-page text-ink antialiased min-h-screen">
     <div id="root"></div>

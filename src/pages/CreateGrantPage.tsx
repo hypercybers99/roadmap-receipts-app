@@ -210,10 +210,12 @@ export const CreateGrantPage: React.FC = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
-              <label className="block text-xs font-bold uppercase text-[#5C5F56] dark:text-[#A8ABA0] mb-1">
+              <label htmlFor="select-roadmap" className="block text-xs font-bold uppercase text-[#5C5F56] dark:text-[#A8ABA0] mb-1">
                 Choose Registered Roadmap
               </label>
               <select
+                id="select-roadmap"
+                aria-label="Choose Registered Roadmap"
                 value={roadmapId}
                 onChange={e => setRoadmapId(e.target.value)}
                 className="w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-medium"
@@ -227,10 +229,12 @@ export const CreateGrantPage: React.FC = () => {
             </div>
 
             <div>
-              <label className="block text-xs font-bold uppercase text-[#5C5F56] dark:text-[#A8ABA0] mb-1">
+              <label htmlFor="custom-roadmap-id" className="block text-xs font-bold uppercase text-[#5C5F56] dark:text-[#A8ABA0] mb-1">
                 Or Enter Roadmap ID
               </label>
               <input
+                id="custom-roadmap-id"
+                aria-label="Or Enter Roadmap ID"
                 type="text"
                 placeholder="e.g. 1"
                 value={roadmapId}
@@ -334,6 +338,7 @@ export const CreateGrantPage: React.FC = () => {
                     Tranche {tIdx} &rarr; Target Milestone
                   </label>
                   <select
+                    aria-label={`Tranche ${tIdx} Target Milestone`}
                     value={t.milestone_index}
                     onChange={e =>
                       handleTrancheChange(tIdx, 'milestone_index', parseInt(e.target.value, 10))
@@ -357,6 +362,7 @@ export const CreateGrantPage: React.FC = () => {
                       type="number"
                       min={1}
                       required
+                      aria-label={`Tranche ${tIdx} Amount`}
                       value={t.amount}
                       onChange={e => handleTrancheChange(tIdx, 'amount', e.target.value)}
                       className="flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold"

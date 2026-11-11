@@ -332,6 +332,7 @@ export const CreateRoadmapPage: React.FC = () => {
                     type="text"
                     required
                     maxLength={80}
+                    aria-label={`Milestone ${mIdx + 1} Title`}
                     placeholder="e.g. Offline sync"
                     value={m.title}
                     onChange={e => handleMilestoneChange(mIdx, 'title', e.target.value)}
@@ -347,6 +348,7 @@ export const CreateRoadmapPage: React.FC = () => {
                     min={1}
                     max={10}
                     required
+                    aria-label={`Milestone ${mIdx + 1} Weight`}
                     value={m.weight}
                     onChange={e => handleMilestoneChange(mIdx, 'weight', parseInt(e.target.value, 10) || 1)}
                     className="w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white focus:ring-2 focus:ring-[#A0451E] focus:outline-none"
@@ -376,6 +378,7 @@ export const CreateRoadmapPage: React.FC = () => {
                       type="text"
                       required
                       maxLength={160}
+                      aria-label={`Milestone ${mIdx + 1} Criterion ${cIdx + 1}`}
                       placeholder="e.g. The documentation lists endpoints for notes and tags."
                       value={c}
                       onChange={e => handleCriterionChange(mIdx, cIdx, e.target.value)}
@@ -404,6 +407,7 @@ export const CreateRoadmapPage: React.FC = () => {
                   type="url"
                   required
                   maxLength={300}
+                  aria-label={`Milestone ${mIdx + 1} Evidence URL`}
                   placeholder="https://raw.githubusercontent.com/.../m1-delivered.md"
                   value={m.evidence_url}
                   onChange={e => handleMilestoneChange(mIdx, 'evidence_url', e.target.value)}

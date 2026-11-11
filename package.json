@@ -16,6 +16,8 @@
     "scan:gradients": "node scripts/scan_gradients.mjs",
     "scan:contrast": "node scripts/scan_contrast.mjs",
     "e2e:chain": "tsx scripts/e2e_full_chain.mjs",
+    "screens:capture": "node scripts/capture_screenshots.mjs",
+    "audit:deployed": "node scripts/audit_deployed_url.mjs",
     "report": "tsx scripts/generate_final_report.ts",
     "check": "npm run build && npm run test && npm run scan:banned && npm run scan:gradients && npm run scan:contrast"
   },

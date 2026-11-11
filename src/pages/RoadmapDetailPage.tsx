@@ -131,6 +131,7 @@ export const RoadmapDetailPage: React.FC = () => {
     return (
       <div className="text-center py-20 space-y-3">
         <Loader2 className="w-10 h-10 animate-spin mx-auto text-[#4F6B3A]" />
+        <h1 className="text-xl font-bold text-[#22231F] dark:text-[#EDECE6]">Loading Roadmap #{id}...</h1>
         <p className="text-sm text-[#5C5F56] dark:text-[#A8ABA0]">Loading roadmap data from Studionet...</p>
       </div>
     );
@@ -140,7 +141,7 @@ export const RoadmapDetailPage: React.FC = () => {
     return (
       <div className="p-8 text-center rounded-lg border border-[#D5CDBD] dark:border-[#3D4036] bg-[#EEE8D8] dark:bg-[#1E201B] space-y-4">
         <AlertCircle className="w-10 h-10 mx-auto text-[#9B3A2E]" />
-        <h2 className="text-xl font-bold">Roadmap #{id} Not Found</h2>
+        <h1 className="text-xl font-bold text-[#22231F] dark:text-[#EDECE6]">Roadmap #{id} Not Found</h1>
         <p className="text-sm text-[#5C5F56] dark:text-[#A8ABA0]">
           The requested roadmap ID does not exist on RoadmapLedger.
         </p>

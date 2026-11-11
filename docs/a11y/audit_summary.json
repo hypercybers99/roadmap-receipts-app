@@ -1,0 +1,136 @@
+{
+  "timestamp": "2026-11-11T09:31:54.209Z",
+  "deployedBase": "https://hypercybers99.github.io/roadmap-receipts-app",
+  "axeVersion": "4.14.0",
+  "results": [
+    {
+      "route": "/",
+      "name": "landing",
+      "consoleErrors": 0,
+      "bodyFontSize": "18px",
+      "overflowAt360": "0px (None)",
+      "lightViolations": 0,
+      "lightIncomplete": 0,
+      "lightPasses": 37,
+      "darkViolations": 0,
+      "darkIncomplete": 0,
+      "darkPasses": 37
+    },
+    {
+      "route": "/roadmaps/new",
+      "name": "create_roadmap",
+      "consoleErrors": 0,
+      "bodyFontSize": "18px",
+      "overflowAt360": "0px (None)",
+      "lightViolations": 1,
+      "lightIncomplete": 0,
+      "lightPasses": 33,
+      "darkViolations": 1,
+      "darkIncomplete": 0,
+      "darkPasses": 33
+    },
+    {
+      "route": "/roadmaps/16",
+      "name": "roadmap_detail",
+      "consoleErrors": 0,
+      "bodyFontSize": "18px",
+      "overflowAt360": "0px (None)",
+      "lightViolations": 1,
+      "lightIncomplete": 0,
+      "lightPasses": 28,
+      "darkViolations": 1,
+      "darkIncomplete": 0,
+      "darkPasses": 28
+    },
+    {
+      "route": "/grants/new",
+      "name": "create_grant",
+      "consoleErrors": 0,
+      "bodyFontSize": "18px",
+      "overflowAt360": "0px (None)",
+      "lightViolations": 2,
+      "lightIncomplete": 0,
+      "lightPasses": 37,
+      "darkViolations": 2,
+      "darkIncomplete": 0,
+      "darkPasses": 37
+    },
+    {
+      "route": "/grants/3",
+      "name": "grant_detail",
+      "consoleErrors": 0,
+      "bodyFontSize": "18px",
+      "overflowAt360": "0px (None)",
+      "lightViolations": 1,
+      "lightIncomplete": 0,
+      "lightPasses": 28,
+      "darkViolations": 1,
+      "darkIncomplete": 0,
+      "darkPasses": 28
+    },
+    {
+      "route": "/evidence",
+      "name": "evidence",
+      "consoleErrors": 0,
+      "bodyFontSize": "18px",
+      "overflowAt360": "0px (None)",
+      "lightViolations": 0,
+      "lightIncomplete": 0,
+      "lightPasses": 33,
+      "darkViolations": 0,
+      "darkIncomplete": 0,
+      "darkPasses": 33
+    },
+    {
+      "route": "/limits",
+      "name": "limits",
+      "consoleErrors": 0,
+      "bodyFontSize": "18px",
+      "overflowAt360": "0px (None)",
+      "lightViolations": 0,
+      "lightIncomplete": 0,
+      "lightPasses": 29,
+      "darkViolations": 0,
+      "darkIncomplete": 0,
+      "darkPasses": 29
+    },
+    {
+      "route": "/404",
+      "name": "not_found",
+      "consoleErrors": 0,
+      "bodyFontSize": "18px",
+      "overflowAt360": "0px (None)",
+      "lightViolations": 1,
+      "lightIncomplete": 0,
+      "lightPasses": 29,
+      "darkViolations": 1,
+      "darkIncomplete": 0,
+      "darkPasses": 29
+    }
+  ],
+  "deepLinkResults": [
+    {
+      "name": "Roadmap #16 Deep Link",
+      "url": "https://hypercybers99.github.io/roadmap-receipts-app/#/roadmaps/16",
+      "title": "Roadmap Receipts - Verifiable Milestone Delivery (Preview)",
+      "contentLoaded": "PASS (Rendered)"
+    },
+    {
+      "name": "Grant #3 Deep Link",
+      "url": "https://hypercybers99.github.io/roadmap-receipts-app/#/grants/3",
+      "title": "Roadmap Receipts - Verifiable Milestone Delivery (Preview)",
+      "contentLoaded": "PASS (Rendered)"
+    },
+    {
+      "name": "Evidence Deep Link",
+      "url": "https://hypercybers99.github.io/roadmap-receipts-app/#/evidence",
+      "title": "Roadmap Receipts - Verifiable Milestone Delivery (Preview)",
+      "contentLoaded": "PASS (Rendered)"
+    }
+  ],
+  "zeroWalletResults": {
+    "limitsRead": "PASS (Rendered)",
+    "roadmapRead": "PASS (Rendered)",
+    "grantRead": "SUCCESS"
+  }
+}
