@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-11-11T09:31:33.491Z",
+  "timestamp": "2026-11-11T09:40:41.242Z",
   "url": "https://hypercybers99.github.io/roadmap-receipts-app/#/limits",
   "toolOptions": {
     "rules": {
@@ -1580,37 +1580,37 @@
                 {
                   "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white flex items-center gap-2\">",
                   "target": [
-                    "section:nth-child(1) > h2"
+                    "section:nth-child(1) > .gap-2"
                   ]
                 },
                 {
                   "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white flex items-center gap-2\">",
                   "target": [
-                    "section:nth-child(2) > h2"
+                    "section:nth-child(2) > .gap-2"
                   ]
                 },
                 {
                   "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white flex items-center gap-2\">",
                   "target": [
-                    "section:nth-child(3) > h2"
+                    "section:nth-child(3) > .gap-2"
                   ]
                 },
                 {
-                  "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h3>",
+                  "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h2>",
                   "target": [
-                    ".space-y-3:nth-child(1) > h3"
+                    ".space-y-3:nth-child(1) > .tracking-tight"
                   ]
                 },
                 {
-                  "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h3>",
+                  "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h2>",
                   "target": [
-                    ".space-y-3:nth-child(2) > h3"
+                    ".space-y-3:nth-child(2) > .tracking-tight"
                   ]
                 },
                 {
-                  "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h3>",
+                  "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h2>",
                   "target": [
-                    ".space-y-3:nth-child(3) > h3"
+                    ".space-y-3:nth-child(3) > .tracking-tight"
                   ]
                 }
               ],
@@ -1725,7 +1725,7 @@
           "impact": null,
           "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white flex items-center gap-2\">",
           "target": [
-            "section:nth-child(1) > h2"
+            "section:nth-child(1) > .gap-2"
           ]
         },
         {
@@ -1743,7 +1743,7 @@
           "impact": null,
           "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white flex items-center gap-2\">",
           "target": [
-            "section:nth-child(2) > h2"
+            "section:nth-child(2) > .gap-2"
           ]
         },
         {
@@ -1761,7 +1761,7 @@
           "impact": null,
           "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white flex items-center gap-2\">",
           "target": [
-            "section:nth-child(3) > h2"
+            "section:nth-child(3) > .gap-2"
           ]
         },
         {
@@ -1777,9 +1777,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h2>",
           "target": [
-            ".space-y-3:nth-child(1) > h3"
+            ".space-y-3:nth-child(1) > .tracking-tight"
           ]
         },
         {
@@ -1795,9 +1795,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h2>",
           "target": [
-            ".space-y-3:nth-child(2) > h3"
+            ".space-y-3:nth-child(2) > .tracking-tight"
           ]
         },
         {
@@ -1813,9 +1813,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h2>",
           "target": [
-            ".space-y-3:nth-child(3) > h3"
+            ".space-y-3:nth-child(3) > .tracking-tight"
           ]
         }
       ]
@@ -1863,21 +1863,21 @@
                   },
                   {
                     "ancestry": [
-                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(1) > h3:nth-child(1)"
+                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(1) > h2:nth-child(1)"
                     ],
-                    "level": 3
+                    "level": 2
                   },
                   {
                     "ancestry": [
-                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(2) > h3:nth-child(1)"
+                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(2) > h2:nth-child(1)"
                     ],
-                    "level": 3
+                    "level": 2
                   },
                   {
                     "ancestry": [
-                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(3) > h3:nth-child(1)"
+                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(3) > h2:nth-child(1)"
                     ],
-                    "level": 3
+                    "level": 2
                   }
                 ]
               },
@@ -1909,7 +1909,7 @@
           "impact": null,
           "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white flex items-center gap-2\">",
           "target": [
-            "section:nth-child(1) > h2"
+            "section:nth-child(1) > .gap-2"
           ]
         },
         {
@@ -1927,7 +1927,7 @@
           "impact": null,
           "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white flex items-center gap-2\">",
           "target": [
-            "section:nth-child(2) > h2"
+            "section:nth-child(2) > .gap-2"
           ]
         },
         {
@@ -1945,7 +1945,7 @@
           "impact": null,
           "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white flex items-center gap-2\">",
           "target": [
-            "section:nth-child(3) > h2"
+            "section:nth-child(3) > .gap-2"
           ]
         },
         {
@@ -1961,9 +1961,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h2>",
           "target": [
-            ".space-y-3:nth-child(1) > h3"
+            ".space-y-3:nth-child(1) > .tracking-tight"
           ]
         },
         {
@@ -1979,9 +1979,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h2>",
           "target": [
-            ".space-y-3:nth-child(2) > h3"
+            ".space-y-3:nth-child(2) > .tracking-tight"
           ]
         },
         {
@@ -1997,9 +1997,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h2>",
           "target": [
-            ".space-y-3:nth-child(3) > h3"
+            ".space-y-3:nth-child(3) > .tracking-tight"
           ]
         }
       ]
@@ -3926,7 +3926,7 @@
           "impact": null,
           "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white flex items-center gap-2\">",
           "target": [
-            "section:nth-child(1) > h2"
+            "section:nth-child(1) > .gap-2"
           ]
         },
         {
@@ -4006,7 +4006,7 @@
           "impact": null,
           "html": "<span>Roadmap Structure Limits</span>",
           "target": [
-            "section:nth-child(1) > h2 > span"
+            "section:nth-child(1) > .gap-2 > span"
           ]
         },
         {
@@ -4186,7 +4186,7 @@
           "impact": null,
           "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white flex items-center gap-2\">",
           "target": [
-            "section:nth-child(2) > h2"
+            "section:nth-child(2) > .gap-2"
           ]
         },
         {
@@ -4266,7 +4266,7 @@
           "impact": null,
           "html": "<span>Milestone &amp; Criteria Limits</span>",
           "target": [
-            "section:nth-child(2) > h2 > span"
+            "section:nth-child(2) > .gap-2 > span"
           ]
         },
         {
@@ -4566,7 +4566,7 @@
           "impact": null,
           "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white flex items-center gap-2\">",
           "target": [
-            "section:nth-child(3) > h2"
+            "section:nth-child(3) > .gap-2"
           ]
         },
         {
@@ -4666,7 +4666,7 @@
           "impact": null,
           "html": "<span>Evidence Fetching &amp; Tripwire Limits</span>",
           "target": [
-            "section:nth-child(3) > h2 > span"
+            "section:nth-child(3) > .gap-2 > span"
           ]
         },
         {
@@ -5024,9 +5024,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h2>",
           "target": [
-            ".space-y-3:nth-child(1) > h3"
+            ".space-y-3:nth-child(1) > .tracking-tight"
           ]
         },
         {
@@ -5104,9 +5104,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h2>",
           "target": [
-            ".space-y-3:nth-child(2) > h3"
+            ".space-y-3:nth-child(2) > .tracking-tight"
           ]
         },
         {
@@ -5484,9 +5484,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h2>",
           "target": [
-            ".space-y-3:nth-child(3) > h3"
+            ".space-y-3:nth-child(3) > .tracking-tight"
           ]
         },
         {

@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-11-11T09:31:08.635Z",
+  "timestamp": "2026-11-11T09:40:15.830Z",
   "url": "https://hypercybers99.github.io/roadmap-receipts-app/#/roadmaps/new",
   "toolOptions": {
     "rules": {
@@ -1113,6 +1113,166 @@
           "target": [
             ".min-w-\\[48px\\]"
           ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            },
+            {
+              "id": "aria-allowed-attr-elm",
+              "data": null,
+              "relatedNodes": [],
+              "message": "ARIA attributes are allowed for this element",
+              "impact": "critical"
+            },
+            {
+              "id": "aria-no-deprecated-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "No deprecated ARIA attributes are used"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<input required=\"\" maxlength=\"80\" aria-label=\"Milestone 1 Title\" placeholder=\"e.g. Offline sync\" class=\"w-full min-h-[48px] ...\" type=\"text\" value=\"\">",
+          "target": [
+            "input[maxlength=\"80\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            },
+            {
+              "id": "aria-allowed-attr-elm",
+              "data": null,
+              "relatedNodes": [],
+              "message": "ARIA attributes are allowed for this element",
+              "impact": "critical"
+            },
+            {
+              "id": "aria-no-deprecated-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "No deprecated ARIA attributes are used"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<input min=\"1\" max=\"10\" required=\"\" aria-label=\"Milestone 1 Weight\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white focus:ring-2 focus:ring-[#A0451E] focus:outline-none\" type=\"number\" value=\"1\">",
+          "target": [
+            "input[min=\"1\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            },
+            {
+              "id": "aria-allowed-attr-elm",
+              "data": null,
+              "relatedNodes": [],
+              "message": "ARIA attributes are allowed for this element",
+              "impact": "critical"
+            },
+            {
+              "id": "aria-no-deprecated-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "No deprecated ARIA attributes are used"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<input required=\"\" maxlength=\"160\" aria-label=\"Milestone 1 Criterio...\" placeholder=\"e.g. The documentati...\" class=\"flex-1 min-h-[48px] ...\" type=\"text\" value=\"\">",
+          "target": [
+            "input[maxlength=\"160\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            },
+            {
+              "id": "aria-allowed-attr-elm",
+              "data": null,
+              "relatedNodes": [],
+              "message": "ARIA attributes are allowed for this element",
+              "impact": "critical"
+            },
+            {
+              "id": "aria-no-deprecated-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "No deprecated ARIA attributes are used"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<input required=\"\" maxlength=\"300\" aria-label=\"Milestone 1 Evidence...\" placeholder=\"https://raw.githubus...\" class=\"w-full min-h-[48px] ...\" type=\"url\" value=\"\">",
+          "target": [
+            "input[maxlength=\"300\"]"
+          ]
         }
       ]
     },
@@ -1166,6 +1326,78 @@
           "html": "<button class=\"min-h-[48px] min-w-[48px] p-2.5 rounded border border-[#D5CDBD] dark:border-[#3D4036] bg-[#EEE8D8] dark:bg-[#252722] text-[#22231F] dark:text-[#EDECE6] hover:bg-[#E4DDCB] dark:hover:bg-[#2F322B] transition-colors focus:ring-2 focus:ring-[#A0451E]\" aria-label=\"Switch to dark mode\">",
           "target": [
             ".min-w-\\[48px\\]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<input required=\"\" maxlength=\"80\" aria-label=\"Milestone 1 Title\" placeholder=\"e.g. Offline sync\" class=\"w-full min-h-[48px] ...\" type=\"text\" value=\"\">",
+          "target": [
+            "input[maxlength=\"80\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<input min=\"1\" max=\"10\" required=\"\" aria-label=\"Milestone 1 Weight\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white focus:ring-2 focus:ring-[#A0451E] focus:outline-none\" type=\"number\" value=\"1\">",
+          "target": [
+            "input[min=\"1\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<input required=\"\" maxlength=\"160\" aria-label=\"Milestone 1 Criterio...\" placeholder=\"e.g. The documentati...\" class=\"flex-1 min-h-[48px] ...\" type=\"text\" value=\"\">",
+          "target": [
+            "input[maxlength=\"160\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<input required=\"\" maxlength=\"300\" aria-label=\"Milestone 1 Evidence...\" placeholder=\"https://raw.githubus...\" class=\"w-full min-h-[48px] ...\" type=\"url\" value=\"\">",
+          "target": [
+            "input[maxlength=\"300\"]"
           ]
         }
       ]
@@ -1259,6 +1491,78 @@
           "target": [
             ".min-w-\\[48px\\]"
           ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<input required=\"\" maxlength=\"80\" aria-label=\"Milestone 1 Title\" placeholder=\"e.g. Offline sync\" class=\"w-full min-h-[48px] ...\" type=\"text\" value=\"\">",
+          "target": [
+            "input[maxlength=\"80\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<input min=\"1\" max=\"10\" required=\"\" aria-label=\"Milestone 1 Weight\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white focus:ring-2 focus:ring-[#A0451E] focus:outline-none\" type=\"number\" value=\"1\">",
+          "target": [
+            "input[min=\"1\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<input required=\"\" maxlength=\"160\" aria-label=\"Milestone 1 Criterio...\" placeholder=\"e.g. The documentati...\" class=\"flex-1 min-h-[48px] ...\" type=\"text\" value=\"\">",
+          "target": [
+            "input[maxlength=\"160\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<input required=\"\" maxlength=\"300\" aria-label=\"Milestone 1 Evidence...\" placeholder=\"https://raw.githubus...\" class=\"w-full min-h-[48px] ...\" type=\"url\" value=\"\">",
+          "target": [
+            "input[maxlength=\"300\"]"
+          ]
         }
       ]
     },
@@ -1341,6 +1645,134 @@
           "target": [
             ".min-w-\\[48px\\]"
           ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<input required=\"\" maxlength=\"80\" aria-label=\"Milestone 1 Title\" placeholder=\"e.g. Offline sync\" class=\"w-full min-h-[48px] ...\" type=\"text\" value=\"\">",
+          "target": [
+            "input[maxlength=\"80\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<input min=\"1\" max=\"10\" required=\"\" aria-label=\"Milestone 1 Weight\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white focus:ring-2 focus:ring-[#A0451E] focus:outline-none\" type=\"number\" value=\"1\">",
+          "target": [
+            "input[min=\"1\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<input required=\"\" maxlength=\"160\" aria-label=\"Milestone 1 Criterio...\" placeholder=\"e.g. The documentati...\" class=\"flex-1 min-h-[48px] ...\" type=\"text\" value=\"\">",
+          "target": [
+            "input[maxlength=\"160\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<input required=\"\" maxlength=\"300\" aria-label=\"Milestone 1 Evidence...\" placeholder=\"https://raw.githubus...\" class=\"w-full min-h-[48px] ...\" type=\"url\" value=\"\">",
+          "target": [
+            "input[maxlength=\"300\"]"
+          ]
         }
       ]
     },
@@ -1394,6 +1826,78 @@
           "html": "<button class=\"min-h-[48px] min-w-[48px] p-2.5 rounded border border-[#D5CDBD] dark:border-[#3D4036] bg-[#EEE8D8] dark:bg-[#252722] text-[#22231F] dark:text-[#EDECE6] hover:bg-[#E4DDCB] dark:hover:bg-[#2F322B] transition-colors focus:ring-2 focus:ring-[#A0451E]\" aria-label=\"Switch to dark mode\">",
           "target": [
             ".min-w-\\[48px\\]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input required=\"\" maxlength=\"80\" aria-label=\"Milestone 1 Title\" placeholder=\"e.g. Offline sync\" class=\"w-full min-h-[48px] ...\" type=\"text\" value=\"\">",
+          "target": [
+            "input[maxlength=\"80\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input min=\"1\" max=\"10\" required=\"\" aria-label=\"Milestone 1 Weight\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white focus:ring-2 focus:ring-[#A0451E] focus:outline-none\" type=\"number\" value=\"1\">",
+          "target": [
+            "input[min=\"1\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input required=\"\" maxlength=\"160\" aria-label=\"Milestone 1 Criterio...\" placeholder=\"e.g. The documentati...\" class=\"flex-1 min-h-[48px] ...\" type=\"text\" value=\"\">",
+          "target": [
+            "input[maxlength=\"160\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input required=\"\" maxlength=\"300\" aria-label=\"Milestone 1 Evidence...\" placeholder=\"https://raw.githubus...\" class=\"w-full min-h-[48px] ...\" type=\"url\" value=\"\">",
+          "target": [
+            "input[maxlength=\"300\"]"
           ]
         }
       ]
@@ -1582,25 +2086,25 @@
                 {
                   "html": "<h2 class=\"text-xl font-bold text-[#22231F] dark:text-white\">Milestones (1/6)</h2>",
                   "target": [
-                    "h2"
+                    ".justify-between.flex.items-center > .text-xl"
                   ]
                 },
                 {
-                  "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h3>",
+                  "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h2>",
                   "target": [
-                    ".space-y-3:nth-child(1) > h3"
+                    ".space-y-3:nth-child(1) > h2"
                   ]
                 },
                 {
-                  "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h3>",
+                  "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h2>",
                   "target": [
-                    ".space-y-3:nth-child(2) > h3"
+                    ".space-y-3:nth-child(2) > h2"
                   ]
                 },
                 {
-                  "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h3>",
+                  "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h2>",
                   "target": [
-                    ".space-y-3:nth-child(3) > h3"
+                    ".space-y-3:nth-child(3) > h2"
                   ]
                 }
               ],
@@ -1751,7 +2255,7 @@
           "impact": null,
           "html": "<h2 class=\"text-xl font-bold text-[#22231F] dark:text-white\">Milestones (1/6)</h2>",
           "target": [
-            "h2"
+            ".justify-between.flex.items-center > .text-xl"
           ]
         },
         {
@@ -1767,9 +2271,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h2>",
           "target": [
-            ".space-y-3:nth-child(1) > h3"
+            ".space-y-3:nth-child(1) > h2"
           ]
         },
         {
@@ -1785,9 +2289,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h2>",
           "target": [
-            ".space-y-3:nth-child(2) > h3"
+            ".space-y-3:nth-child(2) > h2"
           ]
         },
         {
@@ -1803,9 +2307,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h2>",
           "target": [
-            ".space-y-3:nth-child(3) > h3"
+            ".space-y-3:nth-child(3) > h2"
           ]
         }
       ]
@@ -1866,7 +2370,7 @@
             }
           ],
           "impact": null,
-          "html": "<input required=\"\" maxlength=\"80\" placeholder=\"e.g. Offline sync\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white focus:ring-2 focus:ring-[#A0451E] focus:outline-none\" type=\"text\" value=\"\">",
+          "html": "<input required=\"\" maxlength=\"80\" aria-label=\"Milestone 1 Title\" placeholder=\"e.g. Offline sync\" class=\"w-full min-h-[48px] ...\" type=\"text\" value=\"\">",
           "target": [
             "input[maxlength=\"80\"]"
           ]
@@ -1884,7 +2388,7 @@
             }
           ],
           "impact": null,
-          "html": "<input min=\"1\" max=\"10\" required=\"\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white focus:ring-2 focus:ring-[#A0451E] focus:outline-none\" type=\"number\" value=\"1\">",
+          "html": "<input min=\"1\" max=\"10\" required=\"\" aria-label=\"Milestone 1 Weight\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white focus:ring-2 focus:ring-[#A0451E] focus:outline-none\" type=\"number\" value=\"1\">",
           "target": [
             "input[min=\"1\"]"
           ]
@@ -1902,7 +2406,7 @@
             }
           ],
           "impact": null,
-          "html": "<input required=\"\" maxlength=\"160\" placeholder=\"e.g. The documentati...\" class=\"flex-1 min-h-[48px] ...\" type=\"text\" value=\"\">",
+          "html": "<input required=\"\" maxlength=\"160\" aria-label=\"Milestone 1 Criterio...\" placeholder=\"e.g. The documentati...\" class=\"flex-1 min-h-[48px] ...\" type=\"text\" value=\"\">",
           "target": [
             "input[maxlength=\"160\"]"
           ]
@@ -1920,7 +2424,7 @@
             }
           ],
           "impact": null,
-          "html": "<input required=\"\" maxlength=\"300\" placeholder=\"https://raw.githubus...\" class=\"w-full min-h-[48px] ...\" type=\"url\" value=\"\">",
+          "html": "<input required=\"\" maxlength=\"300\" aria-label=\"Milestone 1 Evidence...\" placeholder=\"https://raw.githubus...\" class=\"w-full min-h-[48px] ...\" type=\"url\" value=\"\">",
           "target": [
             "input[maxlength=\"300\"]"
           ]
@@ -1958,21 +2462,21 @@
                   },
                   {
                     "ancestry": [
-                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(1) > h3:nth-child(1)"
+                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(1) > h2:nth-child(1)"
                     ],
-                    "level": 3
+                    "level": 2
                   },
                   {
                     "ancestry": [
-                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(2) > h3:nth-child(1)"
+                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(2) > h2:nth-child(1)"
                     ],
-                    "level": 3
+                    "level": 2
                   },
                   {
                     "ancestry": [
-                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(3) > h3:nth-child(1)"
+                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(3) > h2:nth-child(1)"
                     ],
-                    "level": 3
+                    "level": 2
                   }
                 ]
               },
@@ -2004,7 +2508,7 @@
           "impact": null,
           "html": "<h2 class=\"text-xl font-bold text-[#22231F] dark:text-white\">Milestones (1/6)</h2>",
           "target": [
-            "h2"
+            ".justify-between.flex.items-center > .text-xl"
           ]
         },
         {
@@ -2020,9 +2524,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h2>",
           "target": [
-            ".space-y-3:nth-child(1) > h3"
+            ".space-y-3:nth-child(1) > h2"
           ]
         },
         {
@@ -2038,9 +2542,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h2>",
           "target": [
-            ".space-y-3:nth-child(2) > h3"
+            ".space-y-3:nth-child(2) > h2"
           ]
         },
         {
@@ -2056,9 +2560,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h2>",
           "target": [
-            ".space-y-3:nth-child(3) > h3"
+            ".space-y-3:nth-child(3) > h2"
           ]
         }
       ]
@@ -2183,7 +2687,7 @@
             }
           ],
           "impact": null,
-          "html": "<input required=\"\" maxlength=\"80\" placeholder=\"e.g. Offline sync\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white focus:ring-2 focus:ring-[#A0451E] focus:outline-none\" type=\"text\" value=\"\">",
+          "html": "<input required=\"\" maxlength=\"80\" aria-label=\"Milestone 1 Title\" placeholder=\"e.g. Offline sync\" class=\"w-full min-h-[48px] ...\" type=\"text\" value=\"\">",
           "target": [
             "input[maxlength=\"80\"]"
           ]
@@ -2201,7 +2705,7 @@
             }
           ],
           "impact": null,
-          "html": "<input min=\"1\" max=\"10\" required=\"\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white focus:ring-2 focus:ring-[#A0451E] focus:outline-none\" type=\"number\" value=\"1\">",
+          "html": "<input min=\"1\" max=\"10\" required=\"\" aria-label=\"Milestone 1 Weight\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white focus:ring-2 focus:ring-[#A0451E] focus:outline-none\" type=\"number\" value=\"1\">",
           "target": [
             "input[min=\"1\"]"
           ]
@@ -2219,7 +2723,7 @@
             }
           ],
           "impact": null,
-          "html": "<input required=\"\" maxlength=\"160\" placeholder=\"e.g. The documentati...\" class=\"flex-1 min-h-[48px] ...\" type=\"text\" value=\"\">",
+          "html": "<input required=\"\" maxlength=\"160\" aria-label=\"Milestone 1 Criterio...\" placeholder=\"e.g. The documentati...\" class=\"flex-1 min-h-[48px] ...\" type=\"text\" value=\"\">",
           "target": [
             "input[maxlength=\"160\"]"
           ]
@@ -2237,7 +2741,7 @@
             }
           ],
           "impact": null,
-          "html": "<input required=\"\" maxlength=\"300\" placeholder=\"https://raw.githubus...\" class=\"w-full min-h-[48px] ...\" type=\"url\" value=\"\">",
+          "html": "<input required=\"\" maxlength=\"300\" aria-label=\"Milestone 1 Evidence...\" placeholder=\"https://raw.githubus...\" class=\"w-full min-h-[48px] ...\" type=\"url\" value=\"\">",
           "target": [
             "input[maxlength=\"300\"]"
           ]
@@ -2246,7 +2750,7 @@
     },
     {
       "id": "label",
-      "impact": "critical",
+      "impact": null,
       "tags": [
         "cat.forms",
         "wcag2a",
@@ -2310,6 +2814,13 @@
         {
           "any": [
             {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-label attribute exists and is not empty"
+            },
+            {
               "id": "non-empty-placeholder",
               "data": null,
               "relatedNodes": [],
@@ -2328,7 +2839,7 @@
             }
           ],
           "impact": null,
-          "html": "<input required=\"\" maxlength=\"80\" placeholder=\"e.g. Offline sync\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white focus:ring-2 focus:ring-[#A0451E] focus:outline-none\" type=\"text\" value=\"\">",
+          "html": "<input required=\"\" maxlength=\"80\" aria-label=\"Milestone 1 Title\" placeholder=\"e.g. Offline sync\" class=\"w-full min-h-[48px] ...\" type=\"text\" value=\"\">",
           "target": [
             "input[maxlength=\"80\"]"
           ]
@@ -2336,6 +2847,39 @@
         {
           "any": [
             {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "hidden-explicit-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Form element has a visible explicit <label>"
+            }
+          ],
+          "impact": null,
+          "html": "<input min=\"1\" max=\"10\" required=\"\" aria-label=\"Milestone 1 Weight\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white focus:ring-2 focus:ring-[#A0451E] focus:outline-none\" type=\"number\" value=\"1\">",
+          "target": [
+            "input[min=\"1\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-label attribute exists and is not empty"
+            },
+            {
               "id": "non-empty-placeholder",
               "data": null,
               "relatedNodes": [],
@@ -2354,7 +2898,7 @@
             }
           ],
           "impact": null,
-          "html": "<input required=\"\" maxlength=\"160\" placeholder=\"e.g. The documentati...\" class=\"flex-1 min-h-[48px] ...\" type=\"text\" value=\"\">",
+          "html": "<input required=\"\" maxlength=\"160\" aria-label=\"Milestone 1 Criterio...\" placeholder=\"e.g. The documentati...\" class=\"flex-1 min-h-[48px] ...\" type=\"text\" value=\"\">",
           "target": [
             "input[maxlength=\"160\"]"
           ]
@@ -2362,6 +2906,13 @@
         {
           "any": [
             {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-label attribute exists and is not empty"
+            },
+            {
               "id": "non-empty-placeholder",
               "data": null,
               "relatedNodes": [],
@@ -2380,7 +2931,7 @@
             }
           ],
           "impact": null,
-          "html": "<input required=\"\" maxlength=\"300\" placeholder=\"https://raw.githubus...\" class=\"w-full min-h-[48px] ...\" type=\"url\" value=\"\">",
+          "html": "<input required=\"\" maxlength=\"300\" aria-label=\"Milestone 1 Evidence...\" placeholder=\"https://raw.githubus...\" class=\"w-full min-h-[48px] ...\" type=\"url\" value=\"\">",
           "target": [
             "input[maxlength=\"300\"]"
           ]
@@ -4603,7 +5154,7 @@
           "impact": null,
           "html": "<h2 class=\"text-xl font-bold text-[#22231F] dark:text-white\">Milestones (1/6)</h2>",
           "target": [
-            "h2"
+            ".justify-between.flex.items-center > .text-xl"
           ]
         },
         {
@@ -4841,7 +5392,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<input required=\"\" maxlength=\"80\" placeholder=\"e.g. Offline sync\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white focus:ring-2 focus:ring-[#A0451E] focus:outline-none\" type=\"text\" value=\"\">",
+          "html": "<input required=\"\" maxlength=\"80\" aria-label=\"Milestone 1 Title\" placeholder=\"e.g. Offline sync\" class=\"w-full min-h-[48px] ...\" type=\"text\" value=\"\">",
           "target": [
             "input[maxlength=\"80\"]"
           ]
@@ -4901,7 +5452,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<input min=\"1\" max=\"10\" required=\"\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white focus:ring-2 focus:ring-[#A0451E] focus:outline-none\" type=\"number\" value=\"1\">",
+          "html": "<input min=\"1\" max=\"10\" required=\"\" aria-label=\"Milestone 1 Weight\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white focus:ring-2 focus:ring-[#A0451E] focus:outline-none\" type=\"number\" value=\"1\">",
           "target": [
             "input[min=\"1\"]"
           ]
@@ -5021,7 +5572,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<input required=\"\" maxlength=\"160\" placeholder=\"e.g. The documentati...\" class=\"flex-1 min-h-[48px] ...\" type=\"text\" value=\"\">",
+          "html": "<input required=\"\" maxlength=\"160\" aria-label=\"Milestone 1 Criterio...\" placeholder=\"e.g. The documentati...\" class=\"flex-1 min-h-[48px] ...\" type=\"text\" value=\"\">",
           "target": [
             "input[maxlength=\"160\"]"
           ]
@@ -5081,7 +5632,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<input required=\"\" maxlength=\"300\" placeholder=\"https://raw.githubus...\" class=\"w-full min-h-[48px] ...\" type=\"url\" value=\"\">",
+          "html": "<input required=\"\" maxlength=\"300\" aria-label=\"Milestone 1 Evidence...\" placeholder=\"https://raw.githubus...\" class=\"w-full min-h-[48px] ...\" type=\"url\" value=\"\">",
           "target": [
             "input[maxlength=\"300\"]"
           ]
@@ -5221,9 +5772,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h2>",
           "target": [
-            ".space-y-3:nth-child(1) > h3"
+            ".space-y-3:nth-child(1) > h2"
           ]
         },
         {
@@ -5301,9 +5852,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h2>",
           "target": [
-            ".space-y-3:nth-child(2) > h3"
+            ".space-y-3:nth-child(2) > h2"
           ]
         },
         {
@@ -5681,9 +6232,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h2>",
           "target": [
-            ".space-y-3:nth-child(3) > h3"
+            ".space-y-3:nth-child(3) > h2"
           ]
         },
         {
@@ -6090,94 +6641,5 @@
     }
   ],
   "incomplete": [],
-  "violations": [
-    {
-      "id": "label",
-      "impact": "critical",
-      "tags": [
-        "cat.forms",
-        "wcag2a",
-        "wcag412",
-        "section508",
-        "section508.22.n",
-        "TTv5",
-        "TT5.c",
-        "EN-301-549",
-        "EN-9.4.1.2",
-        "ACT",
-        "RGAAv4",
-        "RGAA-11.1.1"
-      ],
-      "description": "Ensure every form element has a label",
-      "help": "Form elements must have labels",
-      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label?application=playwright",
-      "nodes": [
-        {
-          "any": [
-            {
-              "id": "implicit-label",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element does not have an implicit (wrapped) <label>"
-            },
-            {
-              "id": "explicit-label",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element does not have an explicit <label>"
-            },
-            {
-              "id": "aria-label",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "aria-label attribute does not exist or is empty"
-            },
-            {
-              "id": "aria-labelledby",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
-            },
-            {
-              "id": "non-empty-title",
-              "data": {
-                "messageKey": "noAttr"
-              },
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has no title attribute"
-            },
-            {
-              "id": "non-empty-placeholder",
-              "data": {
-                "messageKey": "noAttr"
-              },
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has no placeholder attribute"
-            },
-            {
-              "id": "presentational-role",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": "critical",
-          "html": "<input min=\"1\" max=\"10\" required=\"\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white focus:ring-2 focus:ring-[#A0451E] focus:outline-none\" type=\"number\" value=\"1\">",
-          "target": [
-            "input[min=\"1\"]"
-          ],
-          "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
-        }
-      ]
-    }
-  ]
+  "violations": []
 }

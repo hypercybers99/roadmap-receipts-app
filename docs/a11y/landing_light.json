@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-11-11T09:31:02.354Z",
+  "timestamp": "2026-11-11T09:40:09.710Z",
   "url": "https://hypercybers99.github.io/roadmap-receipts-app/#/",
   "toolOptions": {
     "rules": {
@@ -1710,25 +1710,25 @@
                 {
                   "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white\">Current Network Metrics (Studionet RPC)</h2>",
                   "target": [
-                    ".gap-2.flex.items-center > h2"
+                    ".gap-2.flex.items-center > .text-lg"
                   ]
                 },
                 {
                   "html": "<h3 class=\"text-xl font-bold text-[#22231F] dark:text-white\">Tripwire-Gated Consensus</h3>",
                   "target": [
-                    ".dark\\:bg-\\[\\#22241F\\].p-6.rounded-lg:nth-child(1) > .text-xl"
+                    ".dark\\:bg-\\[\\#22241F\\].p-6.rounded-lg:nth-child(1) > h3"
                   ]
                 },
                 {
                   "html": "<h3 class=\"text-xl font-bold text-[#22231F] dark:text-white\">Tranche-Gated Escrow</h3>",
                   "target": [
-                    ".dark\\:bg-\\[\\#22241F\\].p-6.rounded-lg:nth-child(2) > .text-xl"
+                    ".dark\\:bg-\\[\\#22241F\\].p-6.rounded-lg:nth-child(2) > h3"
                   ]
                 },
                 {
                   "html": "<h3 class=\"text-xl font-bold text-[#22231F] dark:text-white\">Exact Limits &amp; Error Mapping</h3>",
                   "target": [
-                    ".dark\\:bg-\\[\\#22241F\\].p-6.rounded-lg:nth-child(3) > .text-xl"
+                    ".dark\\:bg-\\[\\#22241F\\].p-6.rounded-lg:nth-child(3) > h3"
                   ]
                 },
                 {
@@ -1738,21 +1738,21 @@
                   ]
                 },
                 {
-                  "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h3>",
+                  "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h2>",
                   "target": [
-                    ".space-y-3:nth-child(1) > .tracking-tight"
+                    ".space-y-3:nth-child(1) > h2"
                   ]
                 },
                 {
-                  "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h3>",
+                  "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h2>",
                   "target": [
-                    ".space-y-3:nth-child(2) > .tracking-tight"
+                    ".space-y-3:nth-child(2) > h2"
                   ]
                 },
                 {
-                  "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h3>",
+                  "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h2>",
                   "target": [
-                    ".space-y-3:nth-child(3) > .tracking-tight"
+                    ".space-y-3:nth-child(3) > h2"
                   ]
                 }
               ],
@@ -1867,7 +1867,7 @@
           "impact": null,
           "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white\">Current Network Metrics (Studionet RPC)</h2>",
           "target": [
-            ".gap-2.flex.items-center > h2"
+            ".gap-2.flex.items-center > .text-lg"
           ]
         },
         {
@@ -1885,7 +1885,7 @@
           "impact": null,
           "html": "<h3 class=\"text-xl font-bold text-[#22231F] dark:text-white\">Tripwire-Gated Consensus</h3>",
           "target": [
-            ".dark\\:bg-\\[\\#22241F\\].p-6.rounded-lg:nth-child(1) > .text-xl"
+            ".dark\\:bg-\\[\\#22241F\\].p-6.rounded-lg:nth-child(1) > h3"
           ]
         },
         {
@@ -1903,7 +1903,7 @@
           "impact": null,
           "html": "<h3 class=\"text-xl font-bold text-[#22231F] dark:text-white\">Tranche-Gated Escrow</h3>",
           "target": [
-            ".dark\\:bg-\\[\\#22241F\\].p-6.rounded-lg:nth-child(2) > .text-xl"
+            ".dark\\:bg-\\[\\#22241F\\].p-6.rounded-lg:nth-child(2) > h3"
           ]
         },
         {
@@ -1921,7 +1921,7 @@
           "impact": null,
           "html": "<h3 class=\"text-xl font-bold text-[#22231F] dark:text-white\">Exact Limits &amp; Error Mapping</h3>",
           "target": [
-            ".dark\\:bg-\\[\\#22241F\\].p-6.rounded-lg:nth-child(3) > .text-xl"
+            ".dark\\:bg-\\[\\#22241F\\].p-6.rounded-lg:nth-child(3) > h3"
           ]
         },
         {
@@ -1955,9 +1955,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h2>",
           "target": [
-            ".space-y-3:nth-child(1) > .tracking-tight"
+            ".space-y-3:nth-child(1) > h2"
           ]
         },
         {
@@ -1973,9 +1973,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h2>",
           "target": [
-            ".space-y-3:nth-child(2) > .tracking-tight"
+            ".space-y-3:nth-child(2) > h2"
           ]
         },
         {
@@ -1991,9 +1991,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h2>",
           "target": [
-            ".space-y-3:nth-child(3) > .tracking-tight"
+            ".space-y-3:nth-child(3) > h2"
           ]
         }
       ]
@@ -2138,21 +2138,21 @@
                   },
                   {
                     "ancestry": [
-                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(1) > h3:nth-child(1)"
+                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(1) > h2:nth-child(1)"
                     ],
-                    "level": 3
+                    "level": 2
                   },
                   {
                     "ancestry": [
-                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(2) > h3:nth-child(1)"
+                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(2) > h2:nth-child(1)"
                     ],
-                    "level": 3
+                    "level": 2
                   },
                   {
                     "ancestry": [
-                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(3) > h3:nth-child(1)"
+                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(3) > h2:nth-child(1)"
                     ],
-                    "level": 3
+                    "level": 2
                   }
                 ]
               },
@@ -2184,7 +2184,7 @@
           "impact": null,
           "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white\">Current Network Metrics (Studionet RPC)</h2>",
           "target": [
-            ".gap-2.flex.items-center > h2"
+            ".gap-2.flex.items-center > .text-lg"
           ]
         },
         {
@@ -2202,7 +2202,7 @@
           "impact": null,
           "html": "<h3 class=\"text-xl font-bold text-[#22231F] dark:text-white\">Tripwire-Gated Consensus</h3>",
           "target": [
-            ".dark\\:bg-\\[\\#22241F\\].p-6.rounded-lg:nth-child(1) > .text-xl"
+            ".dark\\:bg-\\[\\#22241F\\].p-6.rounded-lg:nth-child(1) > h3"
           ]
         },
         {
@@ -2220,7 +2220,7 @@
           "impact": null,
           "html": "<h3 class=\"text-xl font-bold text-[#22231F] dark:text-white\">Tranche-Gated Escrow</h3>",
           "target": [
-            ".dark\\:bg-\\[\\#22241F\\].p-6.rounded-lg:nth-child(2) > .text-xl"
+            ".dark\\:bg-\\[\\#22241F\\].p-6.rounded-lg:nth-child(2) > h3"
           ]
         },
         {
@@ -2238,7 +2238,7 @@
           "impact": null,
           "html": "<h3 class=\"text-xl font-bold text-[#22231F] dark:text-white\">Exact Limits &amp; Error Mapping</h3>",
           "target": [
-            ".dark\\:bg-\\[\\#22241F\\].p-6.rounded-lg:nth-child(3) > .text-xl"
+            ".dark\\:bg-\\[\\#22241F\\].p-6.rounded-lg:nth-child(3) > h3"
           ]
         },
         {
@@ -2272,9 +2272,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h2>",
           "target": [
-            ".space-y-3:nth-child(1) > .tracking-tight"
+            ".space-y-3:nth-child(1) > h2"
           ]
         },
         {
@@ -2290,9 +2290,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h2>",
           "target": [
-            ".space-y-3:nth-child(2) > .tracking-tight"
+            ".space-y-3:nth-child(2) > h2"
           ]
         },
         {
@@ -2308,9 +2308,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h2>",
           "target": [
-            ".space-y-3:nth-child(3) > .tracking-tight"
+            ".space-y-3:nth-child(3) > h2"
           ]
         }
       ]
@@ -4927,7 +4927,7 @@
           "impact": null,
           "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white\">Current Network Metrics (Studionet RPC)</h2>",
           "target": [
-            ".gap-2.flex.items-center > h2"
+            ".gap-2.flex.items-center > .text-lg"
           ]
         },
         {
@@ -5347,7 +5347,7 @@
           "impact": null,
           "html": "<h3 class=\"text-xl font-bold text-[#22231F] dark:text-white\">Tripwire-Gated Consensus</h3>",
           "target": [
-            ".dark\\:bg-\\[\\#22241F\\].p-6.rounded-lg:nth-child(1) > .text-xl"
+            ".dark\\:bg-\\[\\#22241F\\].p-6.rounded-lg:nth-child(1) > h3"
           ]
         },
         {
@@ -5627,7 +5627,7 @@
           "impact": null,
           "html": "<h3 class=\"text-xl font-bold text-[#22231F] dark:text-white\">Tranche-Gated Escrow</h3>",
           "target": [
-            ".dark\\:bg-\\[\\#22241F\\].p-6.rounded-lg:nth-child(2) > .text-xl"
+            ".dark\\:bg-\\[\\#22241F\\].p-6.rounded-lg:nth-child(2) > h3"
           ]
         },
         {
@@ -5867,7 +5867,7 @@
           "impact": null,
           "html": "<h3 class=\"text-xl font-bold text-[#22231F] dark:text-white\">Exact Limits &amp; Error Mapping</h3>",
           "target": [
-            ".dark\\:bg-\\[\\#22241F\\].p-6.rounded-lg:nth-child(3) > .text-xl"
+            ".dark\\:bg-\\[\\#22241F\\].p-6.rounded-lg:nth-child(3) > h3"
           ]
         },
         {
@@ -6745,9 +6745,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h2>",
           "target": [
-            ".space-y-3:nth-child(1) > .tracking-tight"
+            ".space-y-3:nth-child(1) > h2"
           ]
         },
         {
@@ -6825,9 +6825,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h2>",
           "target": [
-            ".space-y-3:nth-child(2) > .tracking-tight"
+            ".space-y-3:nth-child(2) > h2"
           ]
         },
         {
@@ -7205,9 +7205,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h2>",
           "target": [
-            ".space-y-3:nth-child(3) > .tracking-tight"
+            ".space-y-3:nth-child(3) > h2"
           ]
         },
         {

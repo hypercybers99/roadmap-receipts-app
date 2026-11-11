@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-11-11T09:31:39.356Z",
+  "timestamp": "2026-11-11T09:40:47.111Z",
   "url": "https://hypercybers99.github.io/roadmap-receipts-app/#/404",
   "toolOptions": {
     "rules": {
@@ -1560,21 +1560,21 @@
                   ]
                 },
                 {
-                  "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h3>",
+                  "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h2>",
                   "target": [
-                    ".space-y-3:nth-child(1) > h3"
+                    ".space-y-3:nth-child(1) > h2"
                   ]
                 },
                 {
-                  "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h3>",
+                  "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h2>",
                   "target": [
-                    ".space-y-3:nth-child(2) > h3"
+                    ".space-y-3:nth-child(2) > h2"
                   ]
                 },
                 {
-                  "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h3>",
+                  "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h2>",
                   "target": [
-                    ".space-y-3:nth-child(3) > h3"
+                    ".space-y-3:nth-child(3) > h2"
                   ]
                 }
               ],
@@ -1687,9 +1687,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h2>",
           "target": [
-            ".space-y-3:nth-child(1) > h3"
+            ".space-y-3:nth-child(1) > h2"
           ]
         },
         {
@@ -1705,9 +1705,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h2>",
           "target": [
-            ".space-y-3:nth-child(2) > h3"
+            ".space-y-3:nth-child(2) > h2"
           ]
         },
         {
@@ -1723,16 +1723,16 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h2>",
           "target": [
-            ".space-y-3:nth-child(3) > h3"
+            ".space-y-3:nth-child(3) > h2"
           ]
         }
       ]
     },
     {
       "id": "heading-order",
-      "impact": "moderate",
+      "impact": null,
       "tags": [
         "cat.semantics",
         "best-practice"
@@ -1755,21 +1755,21 @@
                   },
                   {
                     "ancestry": [
-                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(1) > h3:nth-child(1)"
+                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(1) > h2:nth-child(1)"
                     ],
-                    "level": 3
+                    "level": 2
                   },
                   {
                     "ancestry": [
-                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(2) > h3:nth-child(1)"
+                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(2) > h2:nth-child(1)"
                     ],
-                    "level": 3
+                    "level": 2
                   },
                   {
                     "ancestry": [
-                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(3) > h3:nth-child(1)"
+                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(3) > h2:nth-child(1)"
                     ],
-                    "level": 3
+                    "level": 2
                   }
                 ]
               },
@@ -1799,9 +1799,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h2>",
           "target": [
-            ".space-y-3:nth-child(2) > h3"
+            ".space-y-3:nth-child(1) > h2"
           ]
         },
         {
@@ -1817,9 +1817,27 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h2>",
           "target": [
-            ".space-y-3:nth-child(3) > h3"
+            ".space-y-3:nth-child(2) > h2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Heading order valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h2>",
+          "target": [
+            ".space-y-3:nth-child(3) > h2"
           ]
         }
       ]
@@ -3832,9 +3850,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h2>",
           "target": [
-            ".space-y-3:nth-child(1) > h3"
+            ".space-y-3:nth-child(1) > h2"
           ]
         },
         {
@@ -3912,9 +3930,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h2>",
           "target": [
-            ".space-y-3:nth-child(2) > h3"
+            ".space-y-3:nth-child(2) > h2"
           ]
         },
         {
@@ -4292,9 +4310,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h2>",
           "target": [
-            ".space-y-3:nth-child(3) > h3"
+            ".space-y-3:nth-child(3) > h2"
           ]
         },
         {
@@ -4701,38 +4719,5 @@
     }
   ],
   "incomplete": [],
-  "violations": [
-    {
-      "id": "heading-order",
-      "impact": "moderate",
-      "tags": [
-        "cat.semantics",
-        "best-practice"
-      ],
-      "description": "Ensure the order of headings is semantically correct",
-      "help": "Heading levels should only increase by one",
-      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=playwright",
-      "nodes": [
-        {
-          "any": [
-            {
-              "id": "heading-order",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "Heading order invalid"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": "moderate",
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h3>",
-          "target": [
-            ".space-y-3:nth-child(1) > h3"
-          ],
-          "failureSummary": "Fix any of the following:\n  Heading order invalid"
-        }
-      ]
-    }
-  ]
+  "violations": []
 }

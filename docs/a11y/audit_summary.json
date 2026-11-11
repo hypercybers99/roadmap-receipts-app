@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-11T09:31:54.209Z",
+  "timestamp": "2026-11-11T09:41:01.736Z",
   "deployedBase": "https://hypercybers99.github.io/roadmap-receipts-app",
   "axeVersion": "4.14.0",
   "results": [
@@ -22,10 +22,10 @@
       "consoleErrors": 0,
       "bodyFontSize": "18px",
       "overflowAt360": "0px (None)",
-      "lightViolations": 1,
+      "lightViolations": 0,
       "lightIncomplete": 0,
       "lightPasses": 33,
-      "darkViolations": 1,
+      "darkViolations": 0,
       "darkIncomplete": 0,
       "darkPasses": 33
     },
@@ -35,12 +35,12 @@
       "consoleErrors": 0,
       "bodyFontSize": "18px",
       "overflowAt360": "0px (None)",
-      "lightViolations": 1,
+      "lightViolations": 0,
       "lightIncomplete": 0,
-      "lightPasses": 28,
-      "darkViolations": 1,
+      "lightPasses": 29,
+      "darkViolations": 0,
       "darkIncomplete": 0,
-      "darkPasses": 28
+      "darkPasses": 29
     },
     {
       "route": "/grants/new",
@@ -48,12 +48,12 @@
       "consoleErrors": 0,
       "bodyFontSize": "18px",
       "overflowAt360": "0px (None)",
-      "lightViolations": 2,
+      "lightViolations": 0,
       "lightIncomplete": 0,
-      "lightPasses": 37,
-      "darkViolations": 2,
+      "lightPasses": 38,
+      "darkViolations": 0,
       "darkIncomplete": 0,
-      "darkPasses": 37
+      "darkPasses": 38
     },
     {
       "route": "/grants/3",
@@ -61,12 +61,12 @@
       "consoleErrors": 0,
       "bodyFontSize": "18px",
       "overflowAt360": "0px (None)",
-      "lightViolations": 1,
+      "lightViolations": 0,
       "lightIncomplete": 0,
-      "lightPasses": 28,
-      "darkViolations": 1,
+      "lightPasses": 29,
+      "darkViolations": 0,
       "darkIncomplete": 0,
-      "darkPasses": 28
+      "darkPasses": 29
     },
     {
       "route": "/evidence",
@@ -100,10 +100,10 @@
       "consoleErrors": 0,
       "bodyFontSize": "18px",
       "overflowAt360": "0px (None)",
-      "lightViolations": 1,
+      "lightViolations": 0,
       "lightIncomplete": 0,
       "lightPasses": 29,
-      "darkViolations": 1,
+      "darkViolations": 0,
       "darkIncomplete": 0,
       "darkPasses": 29
     }
@@ -130,7 +130,7 @@
   ],
   "zeroWalletResults": {
     "limitsRead": "PASS (Rendered)",
-    "roadmapRead": "PASS (Rendered)",
+    "roadmapRead": "SUCCESS",
     "grantRead": "SUCCESS"
   }
 }

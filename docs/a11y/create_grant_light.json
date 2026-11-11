@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-11-11T09:31:17.942Z",
+  "timestamp": "2026-11-11T09:40:25.387Z",
   "url": "https://hypercybers99.github.io/roadmap-receipts-app/#/grants/new",
   "toolOptions": {
     "rules": {
@@ -1068,6 +1068,166 @@
           "target": [
             ".items-start"
           ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            },
+            {
+              "id": "aria-allowed-attr-elm",
+              "data": null,
+              "relatedNodes": [],
+              "message": "ARIA attributes are allowed for this element",
+              "impact": "critical"
+            },
+            {
+              "id": "aria-no-deprecated-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "No deprecated ARIA attributes are used"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<select id=\"select-roadmap\" aria-label=\"Choose Registered Roadmap\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-medium\"></select>",
+          "target": [
+            "#select-roadmap"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            },
+            {
+              "id": "aria-allowed-attr-elm",
+              "data": null,
+              "relatedNodes": [],
+              "message": "ARIA attributes are allowed for this element",
+              "impact": "critical"
+            },
+            {
+              "id": "aria-no-deprecated-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "No deprecated ARIA attributes are used"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<input id=\"custom-roadmap-id\" aria-label=\"Or Enter Roadmap ID\" placeholder=\"e.g. 1\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-mono\" type=\"text\" value=\"1\">",
+          "target": [
+            "#custom-roadmap-id"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            },
+            {
+              "id": "aria-allowed-attr-elm",
+              "data": null,
+              "relatedNodes": [],
+              "message": "ARIA attributes are allowed for this element",
+              "impact": "critical"
+            },
+            {
+              "id": "aria-no-deprecated-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "No deprecated ARIA attributes are used"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<select aria-label=\"Tranche 0 Target Milestone\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\"></select>",
+          "target": [
+            "select[aria-label=\"Tranche 0 Target Milestone\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            },
+            {
+              "id": "aria-allowed-attr-elm",
+              "data": null,
+              "relatedNodes": [],
+              "message": "ARIA attributes are allowed for this element",
+              "impact": "critical"
+            },
+            {
+              "id": "aria-no-deprecated-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "No deprecated ARIA attributes are used"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<input min=\"1\" required=\"\" aria-label=\"Tranche 0 Amount\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"100\">",
+          "target": [
+            "input[min=\"1\"]"
+          ]
         }
       ]
     },
@@ -1170,6 +1330,78 @@
           "html": "<div class=\"p-4 rounded-md border border-[#D5CDBD] dark:border-[#3D4036] bg-[#EEE8D8] dark:bg-[#252722] text-[#22231F] dark:text-[#EDECE6] flex items-start gap-3 my-4\" role=\"note\" aria-label=\"Demo credit notice\">",
           "target": [
             ".items-start"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<select id=\"select-roadmap\" aria-label=\"Choose Registered Roadmap\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-medium\"></select>",
+          "target": [
+            "#select-roadmap"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<input id=\"custom-roadmap-id\" aria-label=\"Or Enter Roadmap ID\" placeholder=\"e.g. 1\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-mono\" type=\"text\" value=\"1\">",
+          "target": [
+            "#custom-roadmap-id"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<select aria-label=\"Tranche 0 Target Milestone\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\"></select>",
+          "target": [
+            "select[aria-label=\"Tranche 0 Target Milestone\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<input min=\"1\" required=\"\" aria-label=\"Tranche 0 Amount\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"100\">",
+          "target": [
+            "input[min=\"1\"]"
           ]
         }
       ]
@@ -1316,6 +1548,78 @@
           "html": "<div class=\"p-4 rounded-md border border-[#D5CDBD] dark:border-[#3D4036] bg-[#EEE8D8] dark:bg-[#252722] text-[#22231F] dark:text-[#EDECE6] flex items-start gap-3 my-4\" role=\"note\" aria-label=\"Demo credit notice\">",
           "target": [
             ".items-start"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<select id=\"select-roadmap\" aria-label=\"Choose Registered Roadmap\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-medium\"></select>",
+          "target": [
+            "#select-roadmap"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<input id=\"custom-roadmap-id\" aria-label=\"Or Enter Roadmap ID\" placeholder=\"e.g. 1\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-mono\" type=\"text\" value=\"1\">",
+          "target": [
+            "#custom-roadmap-id"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<select aria-label=\"Tranche 0 Target Milestone\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\"></select>",
+          "target": [
+            "select[aria-label=\"Tranche 0 Target Milestone\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<input min=\"1\" required=\"\" aria-label=\"Tranche 0 Amount\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"100\">",
+          "target": [
+            "input[min=\"1\"]"
           ]
         }
       ]
@@ -1517,6 +1821,134 @@
           "target": [
             ".items-start"
           ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<select id=\"select-roadmap\" aria-label=\"Choose Registered Roadmap\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-medium\"></select>",
+          "target": [
+            "#select-roadmap"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<input id=\"custom-roadmap-id\" aria-label=\"Or Enter Roadmap ID\" placeholder=\"e.g. 1\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-mono\" type=\"text\" value=\"1\">",
+          "target": [
+            "#custom-roadmap-id"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<select aria-label=\"Tranche 0 Target Milestone\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\"></select>",
+          "target": [
+            "select[aria-label=\"Tranche 0 Target Milestone\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<input min=\"1\" required=\"\" aria-label=\"Tranche 0 Amount\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"100\">",
+          "target": [
+            "input[min=\"1\"]"
+          ]
         }
       ]
     },
@@ -1588,6 +2020,78 @@
           "html": "<div class=\"p-4 rounded-md border border-[#D5CDBD] dark:border-[#3D4036] bg-[#EEE8D8] dark:bg-[#252722] text-[#22231F] dark:text-[#EDECE6] flex items-start gap-3 my-4\" role=\"note\" aria-label=\"Demo credit notice\">",
           "target": [
             ".items-start"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<select id=\"select-roadmap\" aria-label=\"Choose Registered Roadmap\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-medium\"></select>",
+          "target": [
+            "#select-roadmap"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input id=\"custom-roadmap-id\" aria-label=\"Or Enter Roadmap ID\" placeholder=\"e.g. 1\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-mono\" type=\"text\" value=\"1\">",
+          "target": [
+            "#custom-roadmap-id"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<select aria-label=\"Tranche 0 Target Milestone\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\"></select>",
+          "target": [
+            "select[aria-label=\"Tranche 0 Target Milestone\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input min=\"1\" required=\"\" aria-label=\"Tranche 0 Amount\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"100\">",
+          "target": [
+            "input[min=\"1\"]"
           ]
         }
       ]
@@ -1704,37 +2208,37 @@
                 {
                   "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white\">1. Select Target Roadmap</h2>",
                   "target": [
-                    ".space-y-4.p-6.rounded-lg:nth-child(1) > h2"
+                    ".space-y-4.p-6.rounded-lg:nth-child(1) > .text-lg"
                   ]
                 },
                 {
                   "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white\">2. Grant Recipient Address</h2>",
                   "target": [
-                    ".p-6.rounded-lg.dark\\:bg-\\[\\#22241F\\]:nth-child(2) > h2"
+                    ".p-6.rounded-lg.dark\\:bg-\\[\\#22241F\\]:nth-child(2) > .text-lg"
                   ]
                 },
                 {
                   "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white\">3. Configure Escrow Tranches</h2>",
                   "target": [
-                    ".justify-between.flex.items-center > div > h2"
+                    ".justify-between.flex.items-center > div > .text-lg"
                   ]
                 },
                 {
-                  "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h3>",
+                  "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h2>",
                   "target": [
-                    ".space-y-3:nth-child(1) > h3"
+                    ".space-y-3:nth-child(1) > .tracking-tight"
                   ]
                 },
                 {
-                  "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h3>",
+                  "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h2>",
                   "target": [
-                    ".space-y-3:nth-child(2) > h3"
+                    ".space-y-3:nth-child(2) > .tracking-tight"
                   ]
                 },
                 {
-                  "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h3>",
+                  "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h2>",
                   "target": [
-                    ".space-y-3:nth-child(3) > h3"
+                    ".space-y-3:nth-child(3) > .tracking-tight"
                   ]
                 }
               ],
@@ -1825,6 +2329,42 @@
           "any": [
             {
               "id": "duplicate-id-aria",
+              "data": "select-roadmap",
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Document has no elements referenced with ARIA or labels that share the same id attribute"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<select id=\"select-roadmap\" aria-label=\"Choose Registered Roadmap\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-medium\"></select>",
+          "target": [
+            "#select-roadmap"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "duplicate-id-aria",
+              "data": "custom-roadmap-id",
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Document has no elements referenced with ARIA or labels that share the same id attribute"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input id=\"custom-roadmap-id\" aria-label=\"Or Enter Roadmap ID\" placeholder=\"e.g. 1\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-mono\" type=\"text\" value=\"1\">",
+          "target": [
+            "#custom-roadmap-id"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "duplicate-id-aria",
               "data": "recipient-address",
               "relatedNodes": [],
               "impact": "critical",
@@ -1885,7 +2425,7 @@
           "impact": null,
           "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white\">1. Select Target Roadmap</h2>",
           "target": [
-            ".space-y-4.p-6.rounded-lg:nth-child(1) > h2"
+            ".space-y-4.p-6.rounded-lg:nth-child(1) > .text-lg"
           ]
         },
         {
@@ -1903,7 +2443,7 @@
           "impact": null,
           "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white\">2. Grant Recipient Address</h2>",
           "target": [
-            ".p-6.rounded-lg.dark\\:bg-\\[\\#22241F\\]:nth-child(2) > h2"
+            ".p-6.rounded-lg.dark\\:bg-\\[\\#22241F\\]:nth-child(2) > .text-lg"
           ]
         },
         {
@@ -1921,7 +2461,7 @@
           "impact": null,
           "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white\">3. Configure Escrow Tranches</h2>",
           "target": [
-            ".justify-between.flex.items-center > div > h2"
+            ".justify-between.flex.items-center > div > .text-lg"
           ]
         },
         {
@@ -1937,9 +2477,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h2>",
           "target": [
-            ".space-y-3:nth-child(1) > h3"
+            ".space-y-3:nth-child(1) > .tracking-tight"
           ]
         },
         {
@@ -1955,9 +2495,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h2>",
           "target": [
-            ".space-y-3:nth-child(2) > h3"
+            ".space-y-3:nth-child(2) > .tracking-tight"
           ]
         },
         {
@@ -1973,9 +2513,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h2>",
           "target": [
-            ".space-y-3:nth-child(3) > h3"
+            ".space-y-3:nth-child(3) > .tracking-tight"
           ]
         }
       ]
@@ -2005,15 +2545,22 @@
             {
               "id": "multiple-label",
               "data": null,
-              "relatedNodes": [],
+              "relatedNodes": [
+                {
+                  "html": "<label for=\"select-roadmap\" class=\"block text-xs font-bold uppercase text-[#5C5F56] dark:text-[#A8ABA0] mb-1\">Choose Registered Roadmap</label>",
+                  "target": [
+                    "label[for=\"select-roadmap\"]"
+                  ]
+                }
+              ],
               "impact": "moderate",
               "message": "Form field does not have multiple label elements"
             }
           ],
           "impact": null,
-          "html": "<select class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-medium\"></select>",
+          "html": "<select id=\"select-roadmap\" aria-label=\"Choose Registered Roadmap\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-medium\"></select>",
           "target": [
-            ".sm\\:grid-cols-2 > div:nth-child(1) > select"
+            "#select-roadmap"
           ]
         },
         {
@@ -2023,15 +2570,22 @@
             {
               "id": "multiple-label",
               "data": null,
-              "relatedNodes": [],
+              "relatedNodes": [
+                {
+                  "html": "<label for=\"custom-roadmap-id\" class=\"block text-xs font-bold uppercase text-[#5C5F56] dark:text-[#A8ABA0] mb-1\">Or Enter Roadmap ID</label>",
+                  "target": [
+                    "label[for=\"custom-roadmap-id\"]"
+                  ]
+                }
+              ],
               "impact": "moderate",
               "message": "Form field does not have multiple label elements"
             }
           ],
           "impact": null,
-          "html": "<input placeholder=\"e.g. 1\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-mono\" type=\"text\" value=\"1\">",
+          "html": "<input id=\"custom-roadmap-id\" aria-label=\"Or Enter Roadmap ID\" placeholder=\"e.g. 1\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-mono\" type=\"text\" value=\"1\">",
           "target": [
-            "input[placeholder=\"e.g. 1\"]"
+            "#custom-roadmap-id"
           ]
         },
         {
@@ -2072,9 +2626,9 @@
             }
           ],
           "impact": null,
-          "html": "<select class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\"></select>",
+          "html": "<select aria-label=\"Tranche 0 Target Milestone\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\"></select>",
           "target": [
-            ".sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select"
+            "select[aria-label=\"Tranche 0 Target Milestone\"]"
           ]
         },
         {
@@ -2090,7 +2644,7 @@
             }
           ],
           "impact": null,
-          "html": "<input min=\"1\" required=\"\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"100\">",
+          "html": "<input min=\"1\" required=\"\" aria-label=\"Tranche 0 Amount\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"100\">",
           "target": [
             "input[min=\"1\"]"
           ]
@@ -2140,21 +2694,21 @@
                   },
                   {
                     "ancestry": [
-                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(1) > h3:nth-child(1)"
+                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(1) > h2:nth-child(1)"
                     ],
-                    "level": 3
+                    "level": 2
                   },
                   {
                     "ancestry": [
-                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(2) > h3:nth-child(1)"
+                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(2) > h2:nth-child(1)"
                     ],
-                    "level": 3
+                    "level": 2
                   },
                   {
                     "ancestry": [
-                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(3) > h3:nth-child(1)"
+                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(3) > h2:nth-child(1)"
                     ],
-                    "level": 3
+                    "level": 2
                   }
                 ]
               },
@@ -2186,7 +2740,7 @@
           "impact": null,
           "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white\">1. Select Target Roadmap</h2>",
           "target": [
-            ".space-y-4.p-6.rounded-lg:nth-child(1) > h2"
+            ".space-y-4.p-6.rounded-lg:nth-child(1) > .text-lg"
           ]
         },
         {
@@ -2204,7 +2758,7 @@
           "impact": null,
           "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white\">2. Grant Recipient Address</h2>",
           "target": [
-            ".p-6.rounded-lg.dark\\:bg-\\[\\#22241F\\]:nth-child(2) > h2"
+            ".p-6.rounded-lg.dark\\:bg-\\[\\#22241F\\]:nth-child(2) > .text-lg"
           ]
         },
         {
@@ -2222,7 +2776,7 @@
           "impact": null,
           "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white\">3. Configure Escrow Tranches</h2>",
           "target": [
-            ".justify-between.flex.items-center > div > h2"
+            ".justify-between.flex.items-center > div > .text-lg"
           ]
         },
         {
@@ -2238,9 +2792,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h2>",
           "target": [
-            ".space-y-3:nth-child(1) > h3"
+            ".space-y-3:nth-child(1) > .tracking-tight"
           ]
         },
         {
@@ -2256,9 +2810,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h2>",
           "target": [
-            ".space-y-3:nth-child(2) > h3"
+            ".space-y-3:nth-child(2) > .tracking-tight"
           ]
         },
         {
@@ -2274,9 +2828,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h2>",
           "target": [
-            ".space-y-3:nth-child(3) > h3"
+            ".space-y-3:nth-child(3) > .tracking-tight"
           ]
         }
       ]
@@ -2383,9 +2937,9 @@
             }
           ],
           "impact": null,
-          "html": "<select class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-medium\"></select>",
+          "html": "<select id=\"select-roadmap\" aria-label=\"Choose Registered Roadmap\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-medium\"></select>",
           "target": [
-            ".sm\\:grid-cols-2 > div:nth-child(1) > select"
+            "#select-roadmap"
           ]
         },
         {
@@ -2401,9 +2955,9 @@
             }
           ],
           "impact": null,
-          "html": "<input placeholder=\"e.g. 1\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-mono\" type=\"text\" value=\"1\">",
+          "html": "<input id=\"custom-roadmap-id\" aria-label=\"Or Enter Roadmap ID\" placeholder=\"e.g. 1\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-mono\" type=\"text\" value=\"1\">",
           "target": [
-            "input[placeholder=\"e.g. 1\"]"
+            "#custom-roadmap-id"
           ]
         },
         {
@@ -2437,9 +2991,9 @@
             }
           ],
           "impact": null,
-          "html": "<select class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\"></select>",
+          "html": "<select aria-label=\"Tranche 0 Target Milestone\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\"></select>",
           "target": [
-            ".sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select"
+            "select[aria-label=\"Tranche 0 Target Milestone\"]"
           ]
         },
         {
@@ -2455,7 +3009,7 @@
             }
           ],
           "impact": null,
-          "html": "<input min=\"1\" required=\"\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"100\">",
+          "html": "<input min=\"1\" required=\"\" aria-label=\"Tranche 0 Amount\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"100\">",
           "target": [
             "input[min=\"1\"]"
           ]
@@ -2464,7 +3018,7 @@
     },
     {
       "id": "label",
-      "impact": "critical",
+      "impact": null,
       "tags": [
         "cat.forms",
         "wcag2a",
@@ -2486,6 +3040,29 @@
         {
           "any": [
             {
+              "id": "explicit-label",
+              "data": {
+                "explicitLabel": "Or Enter Roadmap ID"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<label for=\"custom-roadmap-id\" class=\"block text-xs font-bold uppercase text-[#5C5F56] dark:text-[#A8ABA0] mb-1\">Or Enter Roadmap ID</label>",
+                  "target": [
+                    "label[for=\"custom-roadmap-id\"]"
+                  ]
+                }
+              ],
+              "impact": "critical",
+              "message": "Element has an explicit <label>"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-label attribute exists and is not empty"
+            },
+            {
               "id": "non-empty-placeholder",
               "data": null,
               "relatedNodes": [],
@@ -2504,9 +3081,9 @@
             }
           ],
           "impact": null,
-          "html": "<input placeholder=\"e.g. 1\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-mono\" type=\"text\" value=\"1\">",
+          "html": "<input id=\"custom-roadmap-id\" aria-label=\"Or Enter Roadmap ID\" placeholder=\"e.g. 1\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-mono\" type=\"text\" value=\"1\">",
           "target": [
-            "input[placeholder=\"e.g. 1\"]"
+            "#custom-roadmap-id"
           ]
         },
         {
@@ -2549,6 +3126,32 @@
           "html": "<input id=\"recipient-address\" required=\"\" placeholder=\"0x...\" class=\"w-full min-h-[48px] ...\" type=\"text\" value=\"\">",
           "target": [
             "#recipient-address"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "hidden-explicit-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Form element has a visible explicit <label>"
+            }
+          ],
+          "impact": null,
+          "html": "<input min=\"1\" required=\"\" aria-label=\"Tranche 0 Amount\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"100\">",
+          "target": [
+            "input[min=\"1\"]"
           ]
         }
       ]
@@ -4589,7 +5192,7 @@
           "impact": null,
           "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white\">1. Select Target Roadmap</h2>",
           "target": [
-            ".space-y-4.p-6.rounded-lg:nth-child(1) > h2"
+            ".space-y-4.p-6.rounded-lg:nth-child(1) > .text-lg"
           ]
         },
         {
@@ -4647,9 +5250,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<label class=\"block text-xs font-bold uppercase text-[#5C5F56] dark:text-[#A8ABA0] mb-1\">Choose Registered Roadmap</label>",
+          "html": "<label for=\"select-roadmap\" class=\"block text-xs font-bold uppercase text-[#5C5F56] dark:text-[#A8ABA0] mb-1\">Choose Registered Roadmap</label>",
           "target": [
-            "div:nth-child(1) > .mb-1"
+            "label[for=\"select-roadmap\"]"
           ]
         },
         {
@@ -4667,9 +5270,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<select class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-medium\"></select>",
+          "html": "<select id=\"select-roadmap\" aria-label=\"Choose Registered Roadmap\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-medium\"></select>",
           "target": [
-            ".sm\\:grid-cols-2 > div:nth-child(1) > select"
+            "#select-roadmap"
           ]
         },
         {
@@ -4707,9 +5310,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<label class=\"block text-xs font-bold uppercase text-[#5C5F56] dark:text-[#A8ABA0] mb-1\">Or Enter Roadmap ID</label>",
+          "html": "<label for=\"custom-roadmap-id\" class=\"block text-xs font-bold uppercase text-[#5C5F56] dark:text-[#A8ABA0] mb-1\">Or Enter Roadmap ID</label>",
           "target": [
-            "div:nth-child(2) > .mb-1"
+            "label[for=\"custom-roadmap-id\"]"
           ]
         },
         {
@@ -4727,9 +5330,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<input placeholder=\"e.g. 1\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-mono\" type=\"text\" value=\"1\">",
+          "html": "<input id=\"custom-roadmap-id\" aria-label=\"Or Enter Roadmap ID\" placeholder=\"e.g. 1\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-mono\" type=\"text\" value=\"1\">",
           "target": [
-            "input[placeholder=\"e.g. 1\"]"
+            "#custom-roadmap-id"
           ]
         },
         {
@@ -4789,7 +5392,7 @@
           "impact": null,
           "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white\">2. Grant Recipient Address</h2>",
           "target": [
-            ".p-6.rounded-lg.dark\\:bg-\\[\\#22241F\\]:nth-child(2) > h2"
+            ".p-6.rounded-lg.dark\\:bg-\\[\\#22241F\\]:nth-child(2) > .text-lg"
           ]
         },
         {
@@ -4909,7 +5512,7 @@
           "impact": null,
           "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white\">3. Configure Escrow Tranches</h2>",
           "target": [
-            ".justify-between.flex.items-center > div > h2"
+            ".justify-between.flex.items-center > div > .text-lg"
           ]
         },
         {
@@ -5027,9 +5630,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<select class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\"></select>",
+          "html": "<select aria-label=\"Tranche 0 Target Milestone\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\"></select>",
           "target": [
-            ".sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select"
+            "select[aria-label=\"Tranche 0 Target Milestone\"]"
           ]
         },
         {
@@ -5087,7 +5690,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<div class=\"flex items-center gap-2\"><input min=\"1\" required=\"\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"100\"></div>",
+          "html": "<div class=\"flex items-center gap-2\"><input min=\"1\" required=\"\" aria-label=\"Tranche 0 Amount\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"100\"></div>",
           "target": [
             ".gap-2.flex.items-center"
           ]
@@ -5107,7 +5710,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<input min=\"1\" required=\"\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"100\">",
+          "html": "<input min=\"1\" required=\"\" aria-label=\"Tranche 0 Amount\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"100\">",
           "target": [
             "input[min=\"1\"]"
           ]
@@ -5427,9 +6030,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h2>",
           "target": [
-            ".space-y-3:nth-child(1) > h3"
+            ".space-y-3:nth-child(1) > .tracking-tight"
           ]
         },
         {
@@ -5507,9 +6110,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h2>",
           "target": [
-            ".space-y-3:nth-child(2) > h3"
+            ".space-y-3:nth-child(2) > .tracking-tight"
           ]
         },
         {
@@ -5887,9 +6490,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h2>",
           "target": [
-            ".space-y-3:nth-child(3) > h3"
+            ".space-y-3:nth-child(3) > .tracking-tight"
           ]
         },
         {
@@ -6293,101 +6896,10 @@
           ]
         }
       ]
-    }
-  ],
-  "incomplete": [],
-  "violations": [
-    {
-      "id": "label",
-      "impact": "critical",
-      "tags": [
-        "cat.forms",
-        "wcag2a",
-        "wcag412",
-        "section508",
-        "section508.22.n",
-        "TTv5",
-        "TT5.c",
-        "EN-301-549",
-        "EN-9.4.1.2",
-        "ACT",
-        "RGAAv4",
-        "RGAA-11.1.1"
-      ],
-      "description": "Ensure every form element has a label",
-      "help": "Form elements must have labels",
-      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label?application=playwright",
-      "nodes": [
-        {
-          "any": [
-            {
-              "id": "implicit-label",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element does not have an implicit (wrapped) <label>"
-            },
-            {
-              "id": "explicit-label",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element does not have an explicit <label>"
-            },
-            {
-              "id": "aria-label",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "aria-label attribute does not exist or is empty"
-            },
-            {
-              "id": "aria-labelledby",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
-            },
-            {
-              "id": "non-empty-title",
-              "data": {
-                "messageKey": "noAttr"
-              },
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has no title attribute"
-            },
-            {
-              "id": "non-empty-placeholder",
-              "data": {
-                "messageKey": "noAttr"
-              },
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has no placeholder attribute"
-            },
-            {
-              "id": "presentational-role",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": "critical",
-          "html": "<input min=\"1\" required=\"\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"100\">",
-          "target": [
-            "input[min=\"1\"]"
-          ],
-          "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
-        }
-      ]
     },
     {
       "id": "select-name",
-      "impact": "critical",
+      "impact": null,
       "tags": [
         "cat.forms",
         "wcag2a",
@@ -6409,116 +6921,74 @@
         {
           "any": [
             {
-              "id": "implicit-label",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element does not have an implicit (wrapped) <label>"
-            },
-            {
               "id": "explicit-label",
-              "data": null,
-              "relatedNodes": [],
+              "data": {
+                "explicitLabel": "Choose Registered Roadmap"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<label for=\"select-roadmap\" class=\"block text-xs font-bold uppercase text-[#5C5F56] dark:text-[#A8ABA0] mb-1\">Choose Registered Roadmap</label>",
+                  "target": [
+                    "label[for=\"select-roadmap\"]"
+                  ]
+                }
+              ],
               "impact": "critical",
-              "message": "Element does not have an explicit <label>"
+              "message": "Element has an explicit <label>"
             },
             {
               "id": "aria-label",
               "data": null,
               "relatedNodes": [],
               "impact": "critical",
-              "message": "aria-label attribute does not exist or is empty"
-            },
-            {
-              "id": "aria-labelledby",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
-            },
-            {
-              "id": "non-empty-title",
-              "data": {
-                "messageKey": "noAttr"
-              },
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has no title attribute"
-            },
-            {
-              "id": "presentational-role",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              "message": "aria-label attribute exists and is not empty"
             }
           ],
           "all": [],
-          "none": [],
-          "impact": "critical",
-          "html": "<select class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-medium\"></select>",
-          "target": [
-            ".sm\\:grid-cols-2 > div:nth-child(1) > select"
+          "none": [
+            {
+              "id": "hidden-explicit-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Form element has a visible explicit <label>"
+            }
           ],
-          "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          "impact": null,
+          "html": "<select id=\"select-roadmap\" aria-label=\"Choose Registered Roadmap\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-medium\"></select>",
+          "target": [
+            "#select-roadmap"
+          ]
         },
         {
           "any": [
             {
-              "id": "implicit-label",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element does not have an implicit (wrapped) <label>"
-            },
-            {
-              "id": "explicit-label",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element does not have an explicit <label>"
-            },
-            {
               "id": "aria-label",
               "data": null,
               "relatedNodes": [],
               "impact": "critical",
-              "message": "aria-label attribute does not exist or is empty"
-            },
-            {
-              "id": "aria-labelledby",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
-            },
-            {
-              "id": "non-empty-title",
-              "data": {
-                "messageKey": "noAttr"
-              },
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has no title attribute"
-            },
-            {
-              "id": "presentational-role",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              "message": "aria-label attribute exists and is not empty"
             }
           ],
           "all": [],
-          "none": [],
-          "impact": "critical",
-          "html": "<select class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\"></select>",
-          "target": [
-            ".sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select"
+          "none": [
+            {
+              "id": "hidden-explicit-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Form element has a visible explicit <label>"
+            }
           ],
-          "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          "impact": null,
+          "html": "<select aria-label=\"Tranche 0 Target Milestone\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\"></select>",
+          "target": [
+            "select[aria-label=\"Tranche 0 Target Milestone\"]"
+          ]
         }
       ]
     }
-  ]
+  ],
+  "incomplete": [],
+  "violations": []
 }

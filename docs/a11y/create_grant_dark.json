@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-11-11T09:31:18.705Z",
+  "timestamp": "2026-11-11T09:40:26.286Z",
   "url": "https://hypercybers99.github.io/roadmap-receipts-app/#/grants/new",
   "toolOptions": {
     "rules": {
@@ -1068,6 +1068,166 @@
           "target": [
             ".items-start"
           ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            },
+            {
+              "id": "aria-allowed-attr-elm",
+              "data": null,
+              "relatedNodes": [],
+              "message": "ARIA attributes are allowed for this element",
+              "impact": "critical"
+            },
+            {
+              "id": "aria-no-deprecated-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "No deprecated ARIA attributes are used"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<select id=\"select-roadmap\" aria-label=\"Choose Registered Roadmap\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-medium\"></select>",
+          "target": [
+            "#select-roadmap"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            },
+            {
+              "id": "aria-allowed-attr-elm",
+              "data": null,
+              "relatedNodes": [],
+              "message": "ARIA attributes are allowed for this element",
+              "impact": "critical"
+            },
+            {
+              "id": "aria-no-deprecated-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "No deprecated ARIA attributes are used"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<input id=\"custom-roadmap-id\" aria-label=\"Or Enter Roadmap ID\" placeholder=\"e.g. 1\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-mono\" type=\"text\" value=\"1\">",
+          "target": [
+            "#custom-roadmap-id"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            },
+            {
+              "id": "aria-allowed-attr-elm",
+              "data": null,
+              "relatedNodes": [],
+              "message": "ARIA attributes are allowed for this element",
+              "impact": "critical"
+            },
+            {
+              "id": "aria-no-deprecated-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "No deprecated ARIA attributes are used"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<select aria-label=\"Tranche 0 Target Milestone\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\"></select>",
+          "target": [
+            "select[aria-label=\"Tranche 0 Target Milestone\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            },
+            {
+              "id": "aria-allowed-attr-elm",
+              "data": null,
+              "relatedNodes": [],
+              "message": "ARIA attributes are allowed for this element",
+              "impact": "critical"
+            },
+            {
+              "id": "aria-no-deprecated-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "No deprecated ARIA attributes are used"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<input min=\"1\" required=\"\" aria-label=\"Tranche 0 Amount\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"100\">",
+          "target": [
+            "input[min=\"1\"]"
+          ]
         }
       ]
     },
@@ -1170,6 +1330,78 @@
           "html": "<div class=\"p-4 rounded-md border border-[#D5CDBD] dark:border-[#3D4036] bg-[#EEE8D8] dark:bg-[#252722] text-[#22231F] dark:text-[#EDECE6] flex items-start gap-3 my-4\" role=\"note\" aria-label=\"Demo credit notice\">",
           "target": [
             ".items-start"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<select id=\"select-roadmap\" aria-label=\"Choose Registered Roadmap\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-medium\"></select>",
+          "target": [
+            "#select-roadmap"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<input id=\"custom-roadmap-id\" aria-label=\"Or Enter Roadmap ID\" placeholder=\"e.g. 1\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-mono\" type=\"text\" value=\"1\">",
+          "target": [
+            "#custom-roadmap-id"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<select aria-label=\"Tranche 0 Target Milestone\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\"></select>",
+          "target": [
+            "select[aria-label=\"Tranche 0 Target Milestone\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<input min=\"1\" required=\"\" aria-label=\"Tranche 0 Amount\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"100\">",
+          "target": [
+            "input[min=\"1\"]"
           ]
         }
       ]
@@ -1316,6 +1548,78 @@
           "html": "<div class=\"p-4 rounded-md border border-[#D5CDBD] dark:border-[#3D4036] bg-[#EEE8D8] dark:bg-[#252722] text-[#22231F] dark:text-[#EDECE6] flex items-start gap-3 my-4\" role=\"note\" aria-label=\"Demo credit notice\">",
           "target": [
             ".items-start"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<select id=\"select-roadmap\" aria-label=\"Choose Registered Roadmap\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-medium\"></select>",
+          "target": [
+            "#select-roadmap"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<input id=\"custom-roadmap-id\" aria-label=\"Or Enter Roadmap ID\" placeholder=\"e.g. 1\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-mono\" type=\"text\" value=\"1\">",
+          "target": [
+            "#custom-roadmap-id"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<select aria-label=\"Tranche 0 Target Milestone\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\"></select>",
+          "target": [
+            "select[aria-label=\"Tranche 0 Target Milestone\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<input min=\"1\" required=\"\" aria-label=\"Tranche 0 Amount\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"100\">",
+          "target": [
+            "input[min=\"1\"]"
           ]
         }
       ]
@@ -1517,6 +1821,134 @@
           "target": [
             ".items-start"
           ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<select id=\"select-roadmap\" aria-label=\"Choose Registered Roadmap\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-medium\"></select>",
+          "target": [
+            "#select-roadmap"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<input id=\"custom-roadmap-id\" aria-label=\"Or Enter Roadmap ID\" placeholder=\"e.g. 1\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-mono\" type=\"text\" value=\"1\">",
+          "target": [
+            "#custom-roadmap-id"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<select aria-label=\"Tranche 0 Target Milestone\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\"></select>",
+          "target": [
+            "select[aria-label=\"Tranche 0 Target Milestone\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<input min=\"1\" required=\"\" aria-label=\"Tranche 0 Amount\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"100\">",
+          "target": [
+            "input[min=\"1\"]"
+          ]
         }
       ]
     },
@@ -1589,6 +2021,78 @@
           "target": [
             ".items-start"
           ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<select id=\"select-roadmap\" aria-label=\"Choose Registered Roadmap\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-medium\"></select>",
+          "target": [
+            "#select-roadmap"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input id=\"custom-roadmap-id\" aria-label=\"Or Enter Roadmap ID\" placeholder=\"e.g. 1\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-mono\" type=\"text\" value=\"1\">",
+          "target": [
+            "#custom-roadmap-id"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<select aria-label=\"Tranche 0 Target Milestone\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\"></select>",
+          "target": [
+            "select[aria-label=\"Tranche 0 Target Milestone\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input min=\"1\" required=\"\" aria-label=\"Tranche 0 Amount\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"100\">",
+          "target": [
+            "input[min=\"1\"]"
+          ]
         }
       ]
     },
@@ -1652,60 +2156,6 @@
         {
           "any": [
             {
-              "id": "non-empty-title",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has a title attribute"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button type=\"button\" class=\"p-2 text-[#9B3A2E] hover:opacity-80\" title=\"Remove tranche\">",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(1) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > .gap-2.flex.items-center > .hover\\:opacity-80[type=\"button\"][title=\"Remove tranche\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "non-empty-title",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has a title attribute"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button type=\"button\" class=\"p-2 text-[#9B3A2E] hover:opacity-80\" title=\"Remove tranche\">",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(2) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > .gap-2.flex.items-center > .hover\\:opacity-80[type=\"button\"][title=\"Remove tranche\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "non-empty-title",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has a title attribute"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button type=\"button\" class=\"p-2 text-[#9B3A2E] hover:opacity-80\" title=\"Remove tranche\">",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(3) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > .gap-2.flex.items-center > .hover\\:opacity-80[type=\"button\"][title=\"Remove tranche\"]"
-          ]
-        },
-        {
-          "any": [
-            {
               "id": "button-has-visible-text",
               "data": null,
               "relatedNodes": [],
@@ -1758,37 +2208,37 @@
                 {
                   "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white\">1. Select Target Roadmap</h2>",
                   "target": [
-                    ".space-y-4.p-6.rounded-lg:nth-child(1) > h2"
+                    ".space-y-4.p-6.rounded-lg:nth-child(1) > .text-lg"
                   ]
                 },
                 {
                   "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white\">2. Grant Recipient Address</h2>",
                   "target": [
-                    ".p-6.rounded-lg.dark\\:bg-\\[\\#22241F\\]:nth-child(2) > h2"
+                    ".p-6.rounded-lg.dark\\:bg-\\[\\#22241F\\]:nth-child(2) > .text-lg"
                   ]
                 },
                 {
                   "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white\">3. Configure Escrow Tranches</h2>",
                   "target": [
-                    ".justify-between.flex.items-center > div > h2"
+                    ".justify-between.flex.items-center > div > .text-lg"
                   ]
                 },
                 {
-                  "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h3>",
+                  "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h2>",
                   "target": [
-                    ".space-y-3:nth-child(1) > h3"
+                    ".space-y-3:nth-child(1) > .tracking-tight"
                   ]
                 },
                 {
-                  "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h3>",
+                  "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h2>",
                   "target": [
-                    ".space-y-3:nth-child(2) > h3"
+                    ".space-y-3:nth-child(2) > .tracking-tight"
                   ]
                 },
                 {
-                  "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h3>",
+                  "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h2>",
                   "target": [
-                    ".space-y-3:nth-child(3) > h3"
+                    ".space-y-3:nth-child(3) > .tracking-tight"
                   ]
                 }
               ],
@@ -1879,6 +2329,42 @@
           "any": [
             {
               "id": "duplicate-id-aria",
+              "data": "select-roadmap",
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Document has no elements referenced with ARIA or labels that share the same id attribute"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<select id=\"select-roadmap\" aria-label=\"Choose Registered Roadmap\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-medium\"></select>",
+          "target": [
+            "#select-roadmap"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "duplicate-id-aria",
+              "data": "custom-roadmap-id",
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Document has no elements referenced with ARIA or labels that share the same id attribute"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input id=\"custom-roadmap-id\" aria-label=\"Or Enter Roadmap ID\" placeholder=\"e.g. 1\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-mono\" type=\"text\" value=\"1\">",
+          "target": [
+            "#custom-roadmap-id"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "duplicate-id-aria",
               "data": "recipient-address",
               "relatedNodes": [],
               "impact": "critical",
@@ -1939,7 +2425,7 @@
           "impact": null,
           "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white\">1. Select Target Roadmap</h2>",
           "target": [
-            ".space-y-4.p-6.rounded-lg:nth-child(1) > h2"
+            ".space-y-4.p-6.rounded-lg:nth-child(1) > .text-lg"
           ]
         },
         {
@@ -1957,7 +2443,7 @@
           "impact": null,
           "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white\">2. Grant Recipient Address</h2>",
           "target": [
-            ".p-6.rounded-lg.dark\\:bg-\\[\\#22241F\\]:nth-child(2) > h2"
+            ".p-6.rounded-lg.dark\\:bg-\\[\\#22241F\\]:nth-child(2) > .text-lg"
           ]
         },
         {
@@ -1975,7 +2461,7 @@
           "impact": null,
           "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white\">3. Configure Escrow Tranches</h2>",
           "target": [
-            ".justify-between.flex.items-center > div > h2"
+            ".justify-between.flex.items-center > div > .text-lg"
           ]
         },
         {
@@ -1991,9 +2477,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h2>",
           "target": [
-            ".space-y-3:nth-child(1) > h3"
+            ".space-y-3:nth-child(1) > .tracking-tight"
           ]
         },
         {
@@ -2009,9 +2495,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h2>",
           "target": [
-            ".space-y-3:nth-child(2) > h3"
+            ".space-y-3:nth-child(2) > .tracking-tight"
           ]
         },
         {
@@ -2027,9 +2513,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h2>",
           "target": [
-            ".space-y-3:nth-child(3) > h3"
+            ".space-y-3:nth-child(3) > .tracking-tight"
           ]
         }
       ]
@@ -2059,15 +2545,22 @@
             {
               "id": "multiple-label",
               "data": null,
-              "relatedNodes": [],
+              "relatedNodes": [
+                {
+                  "html": "<label for=\"select-roadmap\" class=\"block text-xs font-bold uppercase text-[#5C5F56] dark:text-[#A8ABA0] mb-1\">Choose Registered Roadmap</label>",
+                  "target": [
+                    "label[for=\"select-roadmap\"]"
+                  ]
+                }
+              ],
               "impact": "moderate",
               "message": "Form field does not have multiple label elements"
             }
           ],
           "impact": null,
-          "html": "<select class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-medium\"></select>",
+          "html": "<select id=\"select-roadmap\" aria-label=\"Choose Registered Roadmap\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-medium\"></select>",
           "target": [
-            ".sm\\:grid-cols-2 > div:nth-child(1) > select"
+            "#select-roadmap"
           ]
         },
         {
@@ -2077,15 +2570,22 @@
             {
               "id": "multiple-label",
               "data": null,
-              "relatedNodes": [],
+              "relatedNodes": [
+                {
+                  "html": "<label for=\"custom-roadmap-id\" class=\"block text-xs font-bold uppercase text-[#5C5F56] dark:text-[#A8ABA0] mb-1\">Or Enter Roadmap ID</label>",
+                  "target": [
+                    "label[for=\"custom-roadmap-id\"]"
+                  ]
+                }
+              ],
               "impact": "moderate",
               "message": "Form field does not have multiple label elements"
             }
           ],
           "impact": null,
-          "html": "<input placeholder=\"e.g. 1\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-mono\" type=\"text\" value=\"1\">",
+          "html": "<input id=\"custom-roadmap-id\" aria-label=\"Or Enter Roadmap ID\" placeholder=\"e.g. 1\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-mono\" type=\"text\" value=\"1\">",
           "target": [
-            "input[placeholder=\"e.g. 1\"]"
+            "#custom-roadmap-id"
           ]
         },
         {
@@ -2126,9 +2626,9 @@
             }
           ],
           "impact": null,
-          "html": "<select class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\">",
+          "html": "<select aria-label=\"Tranche 0 Target Milestone\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\"></select>",
           "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(1) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select"
+            "select[aria-label=\"Tranche 0 Target Milestone\"]"
           ]
         },
         {
@@ -2144,81 +2644,9 @@
             }
           ],
           "impact": null,
-          "html": "<input min=\"1\" required=\"\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"100\">",
+          "html": "<input min=\"1\" required=\"\" aria-label=\"Tranche 0 Amount\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"100\">",
           "target": [
-            "input[value=\"100\"]"
-          ]
-        },
-        {
-          "any": [],
-          "all": [],
-          "none": [
-            {
-              "id": "multiple-label",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "Form field does not have multiple label elements"
-            }
-          ],
-          "impact": null,
-          "html": "<select class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\">",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(2) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select"
-          ]
-        },
-        {
-          "any": [],
-          "all": [],
-          "none": [
-            {
-              "id": "multiple-label",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "Form field does not have multiple label elements"
-            }
-          ],
-          "impact": null,
-          "html": "<input min=\"1\" required=\"\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"200\">",
-          "target": [
-            "input[value=\"200\"]"
-          ]
-        },
-        {
-          "any": [],
-          "all": [],
-          "none": [
-            {
-              "id": "multiple-label",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "Form field does not have multiple label elements"
-            }
-          ],
-          "impact": null,
-          "html": "<select class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\">",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(3) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select"
-          ]
-        },
-        {
-          "any": [],
-          "all": [],
-          "none": [
-            {
-              "id": "multiple-label",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "Form field does not have multiple label elements"
-            }
-          ],
-          "impact": null,
-          "html": "<input min=\"1\" required=\"\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"300\">",
-          "target": [
-            "input[value=\"300\"]"
+            "input[min=\"1\"]"
           ]
         }
       ]
@@ -2266,21 +2694,21 @@
                   },
                   {
                     "ancestry": [
-                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(1) > h3:nth-child(1)"
+                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(1) > h2:nth-child(1)"
                     ],
-                    "level": 3
+                    "level": 2
                   },
                   {
                     "ancestry": [
-                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(2) > h3:nth-child(1)"
+                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(2) > h2:nth-child(1)"
                     ],
-                    "level": 3
+                    "level": 2
                   },
                   {
                     "ancestry": [
-                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(3) > h3:nth-child(1)"
+                      "html > body > div > div > footer:nth-child(3) > div > div:nth-child(1) > div:nth-child(3) > h2:nth-child(1)"
                     ],
-                    "level": 3
+                    "level": 2
                   }
                 ]
               },
@@ -2312,7 +2740,7 @@
           "impact": null,
           "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white\">1. Select Target Roadmap</h2>",
           "target": [
-            ".space-y-4.p-6.rounded-lg:nth-child(1) > h2"
+            ".space-y-4.p-6.rounded-lg:nth-child(1) > .text-lg"
           ]
         },
         {
@@ -2330,7 +2758,7 @@
           "impact": null,
           "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white\">2. Grant Recipient Address</h2>",
           "target": [
-            ".p-6.rounded-lg.dark\\:bg-\\[\\#22241F\\]:nth-child(2) > h2"
+            ".p-6.rounded-lg.dark\\:bg-\\[\\#22241F\\]:nth-child(2) > .text-lg"
           ]
         },
         {
@@ -2348,7 +2776,7 @@
           "impact": null,
           "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white\">3. Configure Escrow Tranches</h2>",
           "target": [
-            ".justify-between.flex.items-center > div > h2"
+            ".justify-between.flex.items-center > div > .text-lg"
           ]
         },
         {
@@ -2364,9 +2792,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h2>",
           "target": [
-            ".space-y-3:nth-child(1) > h3"
+            ".space-y-3:nth-child(1) > .tracking-tight"
           ]
         },
         {
@@ -2382,9 +2810,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h2>",
           "target": [
-            ".space-y-3:nth-child(2) > h3"
+            ".space-y-3:nth-child(2) > .tracking-tight"
           ]
         },
         {
@@ -2400,9 +2828,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h2>",
           "target": [
-            ".space-y-3:nth-child(3) > h3"
+            ".space-y-3:nth-child(3) > .tracking-tight"
           ]
         }
       ]
@@ -2509,9 +2937,9 @@
             }
           ],
           "impact": null,
-          "html": "<select class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-medium\"></select>",
+          "html": "<select id=\"select-roadmap\" aria-label=\"Choose Registered Roadmap\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-medium\"></select>",
           "target": [
-            ".sm\\:grid-cols-2 > div:nth-child(1) > select"
+            "#select-roadmap"
           ]
         },
         {
@@ -2527,9 +2955,9 @@
             }
           ],
           "impact": null,
-          "html": "<input placeholder=\"e.g. 1\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-mono\" type=\"text\" value=\"1\">",
+          "html": "<input id=\"custom-roadmap-id\" aria-label=\"Or Enter Roadmap ID\" placeholder=\"e.g. 1\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-mono\" type=\"text\" value=\"1\">",
           "target": [
-            "input[placeholder=\"e.g. 1\"]"
+            "#custom-roadmap-id"
           ]
         },
         {
@@ -2563,9 +2991,9 @@
             }
           ],
           "impact": null,
-          "html": "<select class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\">",
+          "html": "<select aria-label=\"Tranche 0 Target Milestone\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\"></select>",
           "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(1) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select"
+            "select[aria-label=\"Tranche 0 Target Milestone\"]"
           ]
         },
         {
@@ -2581,88 +3009,16 @@
             }
           ],
           "impact": null,
-          "html": "<input min=\"1\" required=\"\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"100\">",
+          "html": "<input min=\"1\" required=\"\" aria-label=\"Tranche 0 Amount\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"100\">",
           "target": [
-            "input[value=\"100\"]"
-          ]
-        },
-        {
-          "any": [],
-          "all": [],
-          "none": [
-            {
-              "id": "title-only",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Form element does not solely use title attribute for its label"
-            }
-          ],
-          "impact": null,
-          "html": "<select class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\">",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(2) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select"
-          ]
-        },
-        {
-          "any": [],
-          "all": [],
-          "none": [
-            {
-              "id": "title-only",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Form element does not solely use title attribute for its label"
-            }
-          ],
-          "impact": null,
-          "html": "<input min=\"1\" required=\"\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"200\">",
-          "target": [
-            "input[value=\"200\"]"
-          ]
-        },
-        {
-          "any": [],
-          "all": [],
-          "none": [
-            {
-              "id": "title-only",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Form element does not solely use title attribute for its label"
-            }
-          ],
-          "impact": null,
-          "html": "<select class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\">",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(3) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select"
-          ]
-        },
-        {
-          "any": [],
-          "all": [],
-          "none": [
-            {
-              "id": "title-only",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Form element does not solely use title attribute for its label"
-            }
-          ],
-          "impact": null,
-          "html": "<input min=\"1\" required=\"\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"300\">",
-          "target": [
-            "input[value=\"300\"]"
+            "input[min=\"1\"]"
           ]
         }
       ]
     },
     {
       "id": "label",
-      "impact": "critical",
+      "impact": null,
       "tags": [
         "cat.forms",
         "wcag2a",
@@ -2684,6 +3040,29 @@
         {
           "any": [
             {
+              "id": "explicit-label",
+              "data": {
+                "explicitLabel": "Or Enter Roadmap ID"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<label for=\"custom-roadmap-id\" class=\"block text-xs font-bold uppercase text-[#5C5F56] dark:text-[#A8ABA0] mb-1\">Or Enter Roadmap ID</label>",
+                  "target": [
+                    "label[for=\"custom-roadmap-id\"]"
+                  ]
+                }
+              ],
+              "impact": "critical",
+              "message": "Element has an explicit <label>"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-label attribute exists and is not empty"
+            },
+            {
               "id": "non-empty-placeholder",
               "data": null,
               "relatedNodes": [],
@@ -2702,9 +3081,9 @@
             }
           ],
           "impact": null,
-          "html": "<input placeholder=\"e.g. 1\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-mono\" type=\"text\" value=\"1\">",
+          "html": "<input id=\"custom-roadmap-id\" aria-label=\"Or Enter Roadmap ID\" placeholder=\"e.g. 1\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-mono\" type=\"text\" value=\"1\">",
           "target": [
-            "input[placeholder=\"e.g. 1\"]"
+            "#custom-roadmap-id"
           ]
         },
         {
@@ -2747,6 +3126,32 @@
           "html": "<input id=\"recipient-address\" required=\"\" placeholder=\"0x...\" class=\"w-full min-h-[48px] ...\" type=\"text\" value=\"\">",
           "target": [
             "#recipient-address"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "hidden-explicit-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Form element has a visible explicit <label>"
+            }
+          ],
+          "impact": null,
+          "html": "<input min=\"1\" required=\"\" aria-label=\"Tranche 0 Amount\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"100\">",
+          "target": [
+            "input[min=\"1\"]"
           ]
         }
       ]
@@ -3332,7 +3737,7 @@
           "impact": null,
           "html": "<a href=\"https://explorer-studio.genlayer.com/address/0x711FFC1C4c6ACBea0E7B74B0cd40AF5A5fA5ADa4\" target=\"_blank\" rel=\"noreferrer\" class=\"text-[#4F6B3A] dark:text-[#8BB370] hover:underline inline-flex items-center gap-1 break-all\">",
           "target": [
-            "li:nth-child(1) > .dark\\:text-\\[\\#8BB370\\].break-all.text-\\[\\#4F6B3A\\]"
+            "li:nth-child(1) > .text-\\[\\#4F6B3A\\].dark\\:text-\\[\\#8BB370\\].break-all"
           ]
         },
         {
@@ -3358,7 +3763,7 @@
           "impact": null,
           "html": "<a href=\"https://explorer-studio.genlayer.com/address/0x5D869C10F523fdD2E3b0Db0CD5CA0107b25b4026\" target=\"_blank\" rel=\"noreferrer\" class=\"text-[#4F6B3A] dark:text-[#8BB370] hover:underline inline-flex items-center gap-1 break-all\">",
           "target": [
-            "li:nth-child(2) > .dark\\:text-\\[\\#8BB370\\].break-all.text-\\[\\#4F6B3A\\]"
+            "li:nth-child(2) > .text-\\[\\#4F6B3A\\].dark\\:text-\\[\\#8BB370\\].break-all"
           ]
         },
         {
@@ -3444,27 +3849,9 @@
             }
           ],
           "impact": null,
-          "html": "<ul class=\"list-disc pl-5 space-y-0.5 mt-1 font-sans\">",
-          "target": [
-            ".list-disc"
-          ]
-        },
-        {
-          "any": [],
-          "all": [],
-          "none": [
-            {
-              "id": "only-listitems",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "List element only has direct children that are allowed inside <li> elements"
-            }
-          ],
-          "impact": null,
           "html": "<ul class=\"text-xs font-mono space-y-2\">",
           "target": [
-            ".space-y-3:nth-child(2) > .space-y-2"
+            ".space-y-2"
           ]
         },
         {
@@ -3503,60 +3890,6 @@
       "help": "<li> elements must be contained in a <ul> or <ol>",
       "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/listitem?application=playwright",
       "nodes": [
-        {
-          "any": [
-            {
-              "id": "listitem",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "List item has a <ul>, <ol> or role=\"list\" parent element"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<li>Index 0: <span class=\"font-semibold\">Offline sync</span> (Weight 3, Status DELIVERED)</li>",
-          "target": [
-            ".list-disc > li:nth-child(1)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "listitem",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "List item has a <ul>, <ol> or role=\"list\" parent element"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<li>Index 1: <span class=\"font-semibold\">Public API</span> (Weight 5, Status DELIVERED)</li>",
-          "target": [
-            ".list-disc > li:nth-child(2)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "listitem",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "List item has a <ul>, <ol> or role=\"list\" parent element"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<li>Index 2: <span class=\"font-semibold\">Security audit published</span> (Weight 2, Status REVIEW)</li>",
-          "target": [
-            ".list-disc > li:nth-child(3)"
-          ]
-        },
         {
           "any": [
             {
@@ -3644,7 +3977,7 @@
           "impact": null,
           "html": "<li><span class=\"text-xs text-[#8C8F84]\">Superseded v1 pair: 0xD22E8C03... | Harness: 0x100B6857...</span></li>",
           "target": [
-            ".space-y-1\\.5 > li:nth-child(3)"
+            "li:nth-child(3)"
           ]
         }
       ]
@@ -3784,222 +4117,6 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<option value=\"0\">Milestone 0: Offline sync</option>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(1) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select > option[value=\"0\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<option value=\"1\">Milestone 1: Public API</option>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(1) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select > option[value=\"1\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<option value=\"2\">Milestone 2: Security audit published</option>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(1) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select > option[value=\"2\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button type=\"button\" class=\"p-2 text-[#9B3A2E] hover:opacity-80\" title=\"Remove tranche\">",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(1) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > .gap-2.flex.items-center > .hover\\:opacity-80[type=\"button\"][title=\"Remove tranche\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<option value=\"0\">Milestone 0: Offline sync</option>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(2) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select > option[value=\"0\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<option value=\"1\">Milestone 1: Public API</option>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(2) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select > option[value=\"1\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<option value=\"2\">Milestone 2: Security audit published</option>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(2) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select > option[value=\"2\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button type=\"button\" class=\"p-2 text-[#9B3A2E] hover:opacity-80\" title=\"Remove tranche\">",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(2) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > .gap-2.flex.items-center > .hover\\:opacity-80[type=\"button\"][title=\"Remove tranche\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<option value=\"0\">Milestone 0: Offline sync</option>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(3) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select > option[value=\"0\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<option value=\"1\">Milestone 1: Public API</option>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(3) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select > option[value=\"1\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<option value=\"2\">Milestone 2: Security audit published</option>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(3) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select > option[value=\"2\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button type=\"button\" class=\"p-2 text-[#9B3A2E] hover:opacity-80\" title=\"Remove tranche\">",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(3) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > .gap-2.flex.items-center > .hover\\:opacity-80[type=\"button\"][title=\"Remove tranche\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
           "html": "<button type=\"submit\" class=\"w-full min-h-[48px] py-3 px-6 rounded-md bg-[#A0451E] text-white font-extrabold text-lg hover:opacity-90 shadow-sm\">Connect Wallet to Create Grant</button>",
           "target": [
             ".py-3"
@@ -4095,7 +4212,7 @@
           "impact": null,
           "html": "<div class=\"min-h-screen flex flex-col bg-[#F7F4EC] text-[#22231F] dark:bg-[#181916] dark:text-[#EDECE6] font-sans antialiased transition-colors\">",
           "target": [
-            ".min-h-screen.dark\\:bg-\\[\\#181916\\].font-sans"
+            ".font-sans"
           ]
         },
         {
@@ -4215,7 +4332,7 @@
           "impact": null,
           "html": "<span class=\"p-2 bg-[#4F6B3A] text-white rounded\">",
           "target": [
-            ".bg-\\[\\#4F6B3A\\].text-white.p-2"
+            ".p-2"
           ]
         },
         {
@@ -4855,7 +4972,7 @@
           "impact": null,
           "html": "<p class=\"text-sm text-[#5C5F56] dark:text-[#A8ABA0] mt-1\">Lock demo credits into TrancheGate escrow governed by verifiable roadmap milestone outcomes.</p>",
           "target": [
-            "div:nth-child(2) > .mt-1"
+            ".mt-1"
           ]
         },
         {
@@ -5075,7 +5192,7 @@
           "impact": null,
           "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white\">1. Select Target Roadmap</h2>",
           "target": [
-            ".space-y-4.p-6.rounded-lg:nth-child(1) > h2"
+            ".space-y-4.p-6.rounded-lg:nth-child(1) > .text-lg"
           ]
         },
         {
@@ -5133,9 +5250,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<label class=\"block text-xs font-bold uppercase text-[#5C5F56] dark:text-[#A8ABA0] mb-1\">Choose Registered Roadmap</label>",
+          "html": "<label for=\"select-roadmap\" class=\"block text-xs font-bold uppercase text-[#5C5F56] dark:text-[#A8ABA0] mb-1\">Choose Registered Roadmap</label>",
           "target": [
-            "div:nth-child(1) > .mb-1"
+            "label[for=\"select-roadmap\"]"
           ]
         },
         {
@@ -5153,9 +5270,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<select class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-medium\"></select>",
+          "html": "<select id=\"select-roadmap\" aria-label=\"Choose Registered Roadmap\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-medium\"></select>",
           "target": [
-            ".sm\\:grid-cols-2 > div:nth-child(1) > select"
+            "#select-roadmap"
           ]
         },
         {
@@ -5193,9 +5310,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<label class=\"block text-xs font-bold uppercase text-[#5C5F56] dark:text-[#A8ABA0] mb-1\">Or Enter Roadmap ID</label>",
+          "html": "<label for=\"custom-roadmap-id\" class=\"block text-xs font-bold uppercase text-[#5C5F56] dark:text-[#A8ABA0] mb-1\">Or Enter Roadmap ID</label>",
           "target": [
-            "div:nth-child(2) > .mb-1"
+            "label[for=\"custom-roadmap-id\"]"
           ]
         },
         {
@@ -5213,9 +5330,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<input placeholder=\"e.g. 1\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-mono\" type=\"text\" value=\"1\">",
+          "html": "<input id=\"custom-roadmap-id\" aria-label=\"Or Enter Roadmap ID\" placeholder=\"e.g. 1\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-mono\" type=\"text\" value=\"1\">",
           "target": [
-            "input[placeholder=\"e.g. 1\"]"
+            "#custom-roadmap-id"
           ]
         },
         {
@@ -5233,269 +5350,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<div class=\"p-4 rounded bg-[#EEE8D8] dark:bg-[#1E201B] border border-[#D5CDBD] dark:border-[#3D4036] space-y-2 text-xs\">",
+          "html": "<p class=\"text-xs text-[#9B3A2E]\">Roadmap #1 not found.</p>",
           "target": [
-            ".space-y-2.p-4.bg-\\[\\#EEE8D8\\]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<div class=\"flex items-center justify-between\"><span class=\"font-bold text-sm text-[#22231F] dark:text-white\">Roadmap #1: Lumen Notes Roadmap</span><span class=\"font-mono text-[#4F6B3A] font-bold\">80% Progress</span></div>",
-          "target": [
-            ".space-y-2.p-4.bg-\\[\\#EEE8D8\\] > .justify-between.flex.items-center"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<span class=\"font-bold text-sm text-[#22231F] dark:text-white\">Roadmap #1: Lumen Notes Roadmap</span>",
-          "target": [
-            ".justify-between.flex.items-center > .dark\\:text-white.text-sm"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<span class=\"font-mono text-[#4F6B3A] font-bold\">80% Progress</span>",
-          "target": [
-            ".text-\\[\\#4F6B3A\\].font-mono"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<p class=\"font-mono text-[#5C5F56] dark:text-[#A8ABA0] truncate\">Owner: 0xaf562fd5c8910e1c2e0e946f085cc6eef2a0cf47</p>",
-          "target": [
-            ".truncate"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<div class=\"pt-1\">",
-          "target": [
-            ".pt-1"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<span class=\"font-bold block text-[#5C5F56] dark:text-[#A8ABA0]\">Milestones:</span>",
-          "target": [
-            ".pt-1 > .block"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<ul class=\"list-disc pl-5 space-y-0.5 mt-1 font-sans\">",
-          "target": [
-            ".list-disc"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<li>Index 0: <span class=\"font-semibold\">Offline sync</span> (Weight 3, Status DELIVERED)</li>",
-          "target": [
-            ".list-disc > li:nth-child(1)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<span class=\"font-semibold\">Offline sync</span>",
-          "target": [
-            ".list-disc > li:nth-child(1) > .font-semibold"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<li>Index 1: <span class=\"font-semibold\">Public API</span> (Weight 5, Status DELIVERED)</li>",
-          "target": [
-            ".list-disc > li:nth-child(2)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<span class=\"font-semibold\">Public API</span>",
-          "target": [
-            ".list-disc > li:nth-child(2) > .font-semibold"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<li>Index 2: <span class=\"font-semibold\">Security audit published</span> (Weight 2, Status REVIEW)</li>",
-          "target": [
-            ".list-disc > li:nth-child(3)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<span class=\"font-semibold\">Security audit published</span>",
-          "target": [
-            "li:nth-child(3) > .font-semibold"
+            ".space-y-4.p-6.rounded-lg:nth-child(1) > .text-\\[\\#9B3A2E\\]"
           ]
         },
         {
@@ -5535,7 +5392,7 @@
           "impact": null,
           "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white\">2. Grant Recipient Address</h2>",
           "target": [
-            ".p-6.rounded-lg.dark\\:bg-\\[\\#22241F\\]:nth-child(2) > h2"
+            ".p-6.rounded-lg.dark\\:bg-\\[\\#22241F\\]:nth-child(2) > .text-lg"
           ]
         },
         {
@@ -5655,7 +5512,7 @@
           "impact": null,
           "html": "<h2 class=\"text-lg font-bold text-[#22231F] dark:text-white\">3. Configure Escrow Tranches</h2>",
           "target": [
-            ".justify-between.flex.items-center > div > h2"
+            ".justify-between.flex.items-center > div > .text-lg"
           ]
         },
         {
@@ -5715,7 +5572,7 @@
           "impact": null,
           "html": "<div class=\"p-4 rounded border border-[#D5CDBD] dark:border-[#3D4036] bg-white dark:bg-[#252722] flex flex-col sm:flex-row items-center gap-4\">",
           "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(1)"
+            ".sm\\:flex-row.gap-4.p-4"
           ]
         },
         {
@@ -5735,7 +5592,7 @@
           "impact": null,
           "html": "<div class=\"w-full sm:w-1/2 space-y-1\">",
           "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(1) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1)"
+            ".sm\\:w-1\\/2.space-y-1.w-full:nth-child(1)"
           ]
         },
         {
@@ -5755,7 +5612,7 @@
           "impact": null,
           "html": "<label class=\"block text-xs font-bold uppercase text-[#5C5F56] dark:text-[#A8ABA0]\">Tranche 0 → Target Milestone</label>",
           "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(1) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > label"
+            ".sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > label"
           ]
         },
         {
@@ -5773,69 +5630,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<select class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\">",
+          "html": "<select aria-label=\"Tranche 0 Target Milestone\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\"></select>",
           "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(1) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<option value=\"0\">Milestone 0: Offline sync</option>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(1) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select > option[value=\"0\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<option value=\"1\">Milestone 1: Public API</option>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(1) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select > option[value=\"1\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<option value=\"2\">Milestone 2: Security audit published</option>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(1) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select > option[value=\"2\"]"
+            "select[aria-label=\"Tranche 0 Target Milestone\"]"
           ]
         },
         {
@@ -5855,7 +5652,7 @@
           "impact": null,
           "html": "<div class=\"w-full sm:w-1/2 space-y-1\">",
           "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(1) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2)"
+            ".sm\\:w-1\\/2.space-y-1.w-full:nth-child(2)"
           ]
         },
         {
@@ -5875,7 +5672,7 @@
           "impact": null,
           "html": "<label class=\"block text-xs font-bold uppercase text-[#5C5F56] dark:text-[#A8ABA0]\">Amount (Demo Credits)</label>",
           "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(1) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > label"
+            ".sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > label"
           ]
         },
         {
@@ -5893,9 +5690,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<div class=\"flex items-center gap-2\">",
+          "html": "<div class=\"flex items-center gap-2\"><input min=\"1\" required=\"\" aria-label=\"Tranche 0 Amount\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"100\"></div>",
           "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(1) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > .gap-2.flex.items-center"
+            ".gap-2.flex.items-center"
           ]
         },
         {
@@ -5913,869 +5710,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<input min=\"1\" required=\"\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"100\">",
+          "html": "<input min=\"1\" required=\"\" aria-label=\"Tranche 0 Amount\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"100\">",
           "target": [
-            "input[value=\"100\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button type=\"button\" class=\"p-2 text-[#9B3A2E] hover:opacity-80\" title=\"Remove tranche\">",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(1) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > .gap-2.flex.items-center > .hover\\:opacity-80[type=\"button\"][title=\"Remove tranche\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-trash2 w-4 h-4\">",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(1) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > .gap-2.flex.items-center > .hover\\:opacity-80[type=\"button\"][title=\"Remove tranche\"] > .lucide-trash2.w-4.h-4"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<path d=\"M3 6h18\"></path>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(1) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > .gap-2.flex.items-center > .hover\\:opacity-80[type=\"button\"][title=\"Remove tranche\"] > .lucide-trash2.w-4.h-4 > path[d=\"M3 6h18\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<path d=\"M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6\"></path>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(1) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > .gap-2.flex.items-center > .hover\\:opacity-80[type=\"button\"][title=\"Remove tranche\"] > .lucide-trash2.w-4.h-4 > path:nth-child(2)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<path d=\"M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2\"></path>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(1) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > .gap-2.flex.items-center > .hover\\:opacity-80[type=\"button\"][title=\"Remove tranche\"] > .lucide-trash2.w-4.h-4 > path:nth-child(3)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<line x1=\"10\" x2=\"10\" y1=\"11\" y2=\"17\"></line>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(1) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > .gap-2.flex.items-center > .hover\\:opacity-80[type=\"button\"][title=\"Remove tranche\"] > .lucide-trash2.w-4.h-4 > line[x1=\"10\"][x2=\"10\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<line x1=\"14\" x2=\"14\" y1=\"11\" y2=\"17\"></line>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(1) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > .gap-2.flex.items-center > .hover\\:opacity-80[type=\"button\"][title=\"Remove tranche\"] > .lucide-trash2.w-4.h-4 > line[x1=\"14\"][x2=\"14\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<div class=\"p-4 rounded border border-[#D5CDBD] dark:border-[#3D4036] bg-white dark:bg-[#252722] flex flex-col sm:flex-row items-center gap-4\">",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(2)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<div class=\"w-full sm:w-1/2 space-y-1\">",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(2) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<label class=\"block text-xs font-bold uppercase text-[#5C5F56] dark:text-[#A8ABA0]\">Tranche 1 → Target Milestone</label>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(2) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > label"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<select class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\">",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(2) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<option value=\"0\">Milestone 0: Offline sync</option>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(2) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select > option[value=\"0\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<option value=\"1\">Milestone 1: Public API</option>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(2) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select > option[value=\"1\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<option value=\"2\">Milestone 2: Security audit published</option>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(2) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select > option[value=\"2\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<div class=\"w-full sm:w-1/2 space-y-1\">",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(2) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<label class=\"block text-xs font-bold uppercase text-[#5C5F56] dark:text-[#A8ABA0]\">Amount (Demo Credits)</label>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(2) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > label"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<div class=\"flex items-center gap-2\">",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(2) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > .gap-2.flex.items-center"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<input min=\"1\" required=\"\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"200\">",
-          "target": [
-            "input[value=\"200\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button type=\"button\" class=\"p-2 text-[#9B3A2E] hover:opacity-80\" title=\"Remove tranche\">",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(2) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > .gap-2.flex.items-center > .hover\\:opacity-80[type=\"button\"][title=\"Remove tranche\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-trash2 w-4 h-4\">",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(2) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > .gap-2.flex.items-center > .hover\\:opacity-80[type=\"button\"][title=\"Remove tranche\"] > .lucide-trash2.w-4.h-4"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<path d=\"M3 6h18\"></path>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(2) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > .gap-2.flex.items-center > .hover\\:opacity-80[type=\"button\"][title=\"Remove tranche\"] > .lucide-trash2.w-4.h-4 > path[d=\"M3 6h18\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<path d=\"M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6\"></path>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(2) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > .gap-2.flex.items-center > .hover\\:opacity-80[type=\"button\"][title=\"Remove tranche\"] > .lucide-trash2.w-4.h-4 > path:nth-child(2)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<path d=\"M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2\"></path>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(2) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > .gap-2.flex.items-center > .hover\\:opacity-80[type=\"button\"][title=\"Remove tranche\"] > .lucide-trash2.w-4.h-4 > path:nth-child(3)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<line x1=\"10\" x2=\"10\" y1=\"11\" y2=\"17\"></line>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(2) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > .gap-2.flex.items-center > .hover\\:opacity-80[type=\"button\"][title=\"Remove tranche\"] > .lucide-trash2.w-4.h-4 > line[x1=\"10\"][x2=\"10\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<line x1=\"14\" x2=\"14\" y1=\"11\" y2=\"17\"></line>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(2) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > .gap-2.flex.items-center > .hover\\:opacity-80[type=\"button\"][title=\"Remove tranche\"] > .lucide-trash2.w-4.h-4 > line[x1=\"14\"][x2=\"14\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<div class=\"p-4 rounded border border-[#D5CDBD] dark:border-[#3D4036] bg-white dark:bg-[#252722] flex flex-col sm:flex-row items-center gap-4\">",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(3)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<div class=\"w-full sm:w-1/2 space-y-1\">",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(3) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<label class=\"block text-xs font-bold uppercase text-[#5C5F56] dark:text-[#A8ABA0]\">Tranche 2 → Target Milestone</label>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(3) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > label"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<select class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\">",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(3) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<option value=\"0\">Milestone 0: Offline sync</option>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(3) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select > option[value=\"0\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<option value=\"1\">Milestone 1: Public API</option>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(3) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select > option[value=\"1\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<option value=\"2\">Milestone 2: Security audit published</option>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(3) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select > option[value=\"2\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<div class=\"w-full sm:w-1/2 space-y-1\">",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(3) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<label class=\"block text-xs font-bold uppercase text-[#5C5F56] dark:text-[#A8ABA0]\">Amount (Demo Credits)</label>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(3) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > label"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<div class=\"flex items-center gap-2\">",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(3) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > .gap-2.flex.items-center"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<input min=\"1\" required=\"\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"300\">",
-          "target": [
-            "input[value=\"300\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<button type=\"button\" class=\"p-2 text-[#9B3A2E] hover:opacity-80\" title=\"Remove tranche\">",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(3) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > .gap-2.flex.items-center > .hover\\:opacity-80[type=\"button\"][title=\"Remove tranche\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-trash2 w-4 h-4\">",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(3) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > .gap-2.flex.items-center > .hover\\:opacity-80[type=\"button\"][title=\"Remove tranche\"] > .lucide-trash2.w-4.h-4"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<path d=\"M3 6h18\"></path>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(3) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > .gap-2.flex.items-center > .hover\\:opacity-80[type=\"button\"][title=\"Remove tranche\"] > .lucide-trash2.w-4.h-4 > path[d=\"M3 6h18\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<path d=\"M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6\"></path>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(3) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > .gap-2.flex.items-center > .hover\\:opacity-80[type=\"button\"][title=\"Remove tranche\"] > .lucide-trash2.w-4.h-4 > path:nth-child(2)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<path d=\"M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2\"></path>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(3) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > .gap-2.flex.items-center > .hover\\:opacity-80[type=\"button\"][title=\"Remove tranche\"] > .lucide-trash2.w-4.h-4 > path:nth-child(3)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<line x1=\"10\" x2=\"10\" y1=\"11\" y2=\"17\"></line>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(3) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > .gap-2.flex.items-center > .hover\\:opacity-80[type=\"button\"][title=\"Remove tranche\"] > .lucide-trash2.w-4.h-4 > line[x1=\"10\"][x2=\"10\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "region",
-              "data": {
-                "isIframe": false
-              },
-              "relatedNodes": [],
-              "impact": "moderate",
-              "message": "All page content is contained by landmarks"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<line x1=\"14\" x2=\"14\" y1=\"11\" y2=\"17\"></line>",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(3) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(2) > .gap-2.flex.items-center > .hover\\:opacity-80[type=\"button\"][title=\"Remove tranche\"] > .lucide-trash2.w-4.h-4 > line[x1=\"14\"][x2=\"14\"]"
+            "input[min=\"1\"]"
           ]
         },
         {
@@ -6813,7 +5750,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<div><span class=\"text-xs uppercase font-bold text-[#5C5F56] dark:text-[#A8ABA0]\">Total Escrow Required:</span><p class=\"text-2xl font-mono font-extrabold text-[#A0451E] dark:text-[#F3BAA4]\">600 Demo Credits</p></div>",
+          "html": "<div><span class=\"text-xs uppercase font-bold text-[#5C5F56] dark:text-[#A8ABA0]\">Total Escrow Required:</span><p class=\"text-2xl font-mono font-extrabold text-[#A0451E] dark:text-[#F3BAA4]\">100 Demo Credits</p></div>",
           "target": [
             ".sm\\:items-center > div:nth-child(1)"
           ]
@@ -6853,7 +5790,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<p class=\"text-2xl font-mono font-extrabold text-[#A0451E] dark:text-[#F3BAA4]\">600 Demo Credits</p>",
+          "html": "<p class=\"text-2xl font-mono font-extrabold text-[#A0451E] dark:text-[#F3BAA4]\">100 Demo Credits</p>",
           "target": [
             ".text-2xl"
           ]
@@ -6935,7 +5872,7 @@
           "impact": null,
           "html": "<p class=\"text-[#9B3A2E] font-bold mt-0.5\">Insufficient balance! <a class=\"underline\" href=\"#/credits\" data-discover=\"true\">Claim 1,000 credits here.</a></p>",
           "target": [
-            ".mt-0\\.5.text-\\[\\#9B3A2E\\]"
+            ".text-\\[\\#9B3A2E\\].mt-0\\.5"
           ]
         },
         {
@@ -7093,9 +6030,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Roadmap Receipts (Preview)</h2>",
           "target": [
-            ".space-y-3:nth-child(1) > h3"
+            ".space-y-3:nth-child(1) > .tracking-tight"
           ]
         },
         {
@@ -7135,7 +6072,7 @@
           "impact": null,
           "html": "<p class=\"text-xs font-mono\">Network: GenLayer Studionet (Chain ID 61999)</p>",
           "target": [
-            ".space-y-3:nth-child(1) > p:nth-child(3)"
+            ".space-y-3:nth-child(1) > .font-mono"
           ]
         },
         {
@@ -7173,9 +6110,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Active Contracts (v2)</h2>",
           "target": [
-            ".space-y-3:nth-child(2) > h3"
+            ".space-y-3:nth-child(2) > .tracking-tight"
           ]
         },
         {
@@ -7195,7 +6132,7 @@
           "impact": null,
           "html": "<ul class=\"text-xs font-mono space-y-2\">",
           "target": [
-            ".space-y-3:nth-child(2) > .space-y-2"
+            ".space-y-2"
           ]
         },
         {
@@ -7235,7 +6172,7 @@
           "impact": null,
           "html": "<span class=\"font-semibold block text-[#22231F] dark:text-white\">RoadmapLedger:</span>",
           "target": [
-            "li:nth-child(1) > .font-semibold.block.dark\\:text-white"
+            "li:nth-child(1) > .block.font-semibold.dark\\:text-white"
           ]
         },
         {
@@ -7255,7 +6192,7 @@
           "impact": null,
           "html": "<a href=\"https://explorer-studio.genlayer.com/address/0x711FFC1C4c6ACBea0E7B74B0cd40AF5A5fA5ADa4\" target=\"_blank\" rel=\"noreferrer\" class=\"text-[#4F6B3A] dark:text-[#8BB370] hover:underline inline-flex items-center gap-1 break-all\">",
           "target": [
-            "li:nth-child(1) > .dark\\:text-\\[\\#8BB370\\].break-all.text-\\[\\#4F6B3A\\]"
+            "li:nth-child(1) > .text-\\[\\#4F6B3A\\].dark\\:text-\\[\\#8BB370\\].break-all"
           ]
         },
         {
@@ -7275,7 +6212,7 @@
           "impact": null,
           "html": "<span>0x711FFC1C4c6ACBea0E7B74B0cd40AF5A5fA5ADa4</span>",
           "target": [
-            "li:nth-child(1) > .dark\\:text-\\[\\#8BB370\\].break-all.text-\\[\\#4F6B3A\\] > span"
+            "li:nth-child(1) > .text-\\[\\#4F6B3A\\].dark\\:text-\\[\\#8BB370\\].break-all > span"
           ]
         },
         {
@@ -7295,7 +6232,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-external-link w-3 h-3 shrink-0\">",
           "target": [
-            "li:nth-child(1) > .dark\\:text-\\[\\#8BB370\\].break-all.text-\\[\\#4F6B3A\\] > .w-3.h-3.lucide-external-link"
+            "li:nth-child(1) > .text-\\[\\#4F6B3A\\].dark\\:text-\\[\\#8BB370\\].break-all > .w-3.h-3.lucide-external-link"
           ]
         },
         {
@@ -7315,7 +6252,7 @@
           "impact": null,
           "html": "<path d=\"M15 3h6v6\"></path>",
           "target": [
-            "li:nth-child(1) > .dark\\:text-\\[\\#8BB370\\].break-all.text-\\[\\#4F6B3A\\] > .w-3.h-3.lucide-external-link > path[d=\"M15 3h6v6\"]"
+            "li:nth-child(1) > .text-\\[\\#4F6B3A\\].dark\\:text-\\[\\#8BB370\\].break-all > .w-3.h-3.lucide-external-link > path[d=\"M15 3h6v6\"]"
           ]
         },
         {
@@ -7335,7 +6272,7 @@
           "impact": null,
           "html": "<path d=\"M10 14 21 3\"></path>",
           "target": [
-            "li:nth-child(1) > .dark\\:text-\\[\\#8BB370\\].break-all.text-\\[\\#4F6B3A\\] > .w-3.h-3.lucide-external-link > path[d=\"M10 14 21 3\"]"
+            "li:nth-child(1) > .text-\\[\\#4F6B3A\\].dark\\:text-\\[\\#8BB370\\].break-all > .w-3.h-3.lucide-external-link > path[d=\"M10 14 21 3\"]"
           ]
         },
         {
@@ -7355,7 +6292,7 @@
           "impact": null,
           "html": "<path d=\"M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6\"></path>",
           "target": [
-            "li:nth-child(1) > .dark\\:text-\\[\\#8BB370\\].break-all.text-\\[\\#4F6B3A\\] > .w-3.h-3.lucide-external-link > path:nth-child(3)"
+            "li:nth-child(1) > .text-\\[\\#4F6B3A\\].dark\\:text-\\[\\#8BB370\\].break-all > .w-3.h-3.lucide-external-link > path:nth-child(3)"
           ]
         },
         {
@@ -7395,7 +6332,7 @@
           "impact": null,
           "html": "<span class=\"font-semibold block text-[#22231F] dark:text-white\">TrancheGate:</span>",
           "target": [
-            "li:nth-child(2) > .font-semibold.block.dark\\:text-white"
+            "li:nth-child(2) > .block.font-semibold.dark\\:text-white"
           ]
         },
         {
@@ -7415,7 +6352,7 @@
           "impact": null,
           "html": "<a href=\"https://explorer-studio.genlayer.com/address/0x5D869C10F523fdD2E3b0Db0CD5CA0107b25b4026\" target=\"_blank\" rel=\"noreferrer\" class=\"text-[#4F6B3A] dark:text-[#8BB370] hover:underline inline-flex items-center gap-1 break-all\">",
           "target": [
-            "li:nth-child(2) > .dark\\:text-\\[\\#8BB370\\].break-all.text-\\[\\#4F6B3A\\]"
+            "li:nth-child(2) > .text-\\[\\#4F6B3A\\].dark\\:text-\\[\\#8BB370\\].break-all"
           ]
         },
         {
@@ -7435,7 +6372,7 @@
           "impact": null,
           "html": "<span>0x5D869C10F523fdD2E3b0Db0CD5CA0107b25b4026</span>",
           "target": [
-            "li:nth-child(2) > .dark\\:text-\\[\\#8BB370\\].break-all.text-\\[\\#4F6B3A\\] > span"
+            "li:nth-child(2) > .text-\\[\\#4F6B3A\\].dark\\:text-\\[\\#8BB370\\].break-all > span"
           ]
         },
         {
@@ -7455,7 +6392,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-external-link w-3 h-3 shrink-0\">",
           "target": [
-            "li:nth-child(2) > .dark\\:text-\\[\\#8BB370\\].break-all.text-\\[\\#4F6B3A\\] > .w-3.h-3.lucide-external-link"
+            "li:nth-child(2) > .text-\\[\\#4F6B3A\\].dark\\:text-\\[\\#8BB370\\].break-all > .w-3.h-3.lucide-external-link"
           ]
         },
         {
@@ -7475,7 +6412,7 @@
           "impact": null,
           "html": "<path d=\"M15 3h6v6\"></path>",
           "target": [
-            "li:nth-child(2) > .dark\\:text-\\[\\#8BB370\\].break-all.text-\\[\\#4F6B3A\\] > .w-3.h-3.lucide-external-link > path[d=\"M15 3h6v6\"]"
+            "li:nth-child(2) > .text-\\[\\#4F6B3A\\].dark\\:text-\\[\\#8BB370\\].break-all > .w-3.h-3.lucide-external-link > path[d=\"M15 3h6v6\"]"
           ]
         },
         {
@@ -7495,7 +6432,7 @@
           "impact": null,
           "html": "<path d=\"M10 14 21 3\"></path>",
           "target": [
-            "li:nth-child(2) > .dark\\:text-\\[\\#8BB370\\].break-all.text-\\[\\#4F6B3A\\] > .w-3.h-3.lucide-external-link > path[d=\"M10 14 21 3\"]"
+            "li:nth-child(2) > .text-\\[\\#4F6B3A\\].dark\\:text-\\[\\#8BB370\\].break-all > .w-3.h-3.lucide-external-link > path[d=\"M10 14 21 3\"]"
           ]
         },
         {
@@ -7515,7 +6452,7 @@
           "impact": null,
           "html": "<path d=\"M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6\"></path>",
           "target": [
-            "li:nth-child(2) > .dark\\:text-\\[\\#8BB370\\].break-all.text-\\[\\#4F6B3A\\] > .w-3.h-3.lucide-external-link > path:nth-child(3)"
+            "li:nth-child(2) > .text-\\[\\#4F6B3A\\].dark\\:text-\\[\\#8BB370\\].break-all > .w-3.h-3.lucide-external-link > path:nth-child(3)"
           ]
         },
         {
@@ -7553,9 +6490,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h3 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h3>",
+          "html": "<h2 class=\"text-base font-bold text-[#22231F] dark:text-[#EDECE6] tracking-tight\">Audit &amp; Traceability</h2>",
           "target": [
-            ".space-y-3:nth-child(3) > h3"
+            ".space-y-3:nth-child(3) > .tracking-tight"
           ]
         },
         {
@@ -7875,7 +6812,7 @@
           "impact": null,
           "html": "<li><span class=\"text-xs text-[#8C8F84]\">Superseded v1 pair: 0xD22E8C03... | Harness: 0x100B6857...</span></li>",
           "target": [
-            ".space-y-1\\.5 > li:nth-child(3)"
+            "li:nth-child(3)"
           ]
         },
         {
@@ -7959,231 +6896,10 @@
           ]
         }
       ]
-    }
-  ],
-  "incomplete": [],
-  "violations": [
-    {
-      "id": "label",
-      "impact": "critical",
-      "tags": [
-        "cat.forms",
-        "wcag2a",
-        "wcag412",
-        "section508",
-        "section508.22.n",
-        "TTv5",
-        "TT5.c",
-        "EN-301-549",
-        "EN-9.4.1.2",
-        "ACT",
-        "RGAAv4",
-        "RGAA-11.1.1"
-      ],
-      "description": "Ensure every form element has a label",
-      "help": "Form elements must have labels",
-      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label?application=playwright",
-      "nodes": [
-        {
-          "any": [
-            {
-              "id": "implicit-label",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element does not have an implicit (wrapped) <label>"
-            },
-            {
-              "id": "explicit-label",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element does not have an explicit <label>"
-            },
-            {
-              "id": "aria-label",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "aria-label attribute does not exist or is empty"
-            },
-            {
-              "id": "aria-labelledby",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
-            },
-            {
-              "id": "non-empty-title",
-              "data": {
-                "messageKey": "noAttr"
-              },
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has no title attribute"
-            },
-            {
-              "id": "non-empty-placeholder",
-              "data": {
-                "messageKey": "noAttr"
-              },
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has no placeholder attribute"
-            },
-            {
-              "id": "presentational-role",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": "critical",
-          "html": "<input min=\"1\" required=\"\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"100\">",
-          "target": [
-            "input[value=\"100\"]"
-          ],
-          "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
-        },
-        {
-          "any": [
-            {
-              "id": "implicit-label",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element does not have an implicit (wrapped) <label>"
-            },
-            {
-              "id": "explicit-label",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element does not have an explicit <label>"
-            },
-            {
-              "id": "aria-label",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "aria-label attribute does not exist or is empty"
-            },
-            {
-              "id": "aria-labelledby",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
-            },
-            {
-              "id": "non-empty-title",
-              "data": {
-                "messageKey": "noAttr"
-              },
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has no title attribute"
-            },
-            {
-              "id": "non-empty-placeholder",
-              "data": {
-                "messageKey": "noAttr"
-              },
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has no placeholder attribute"
-            },
-            {
-              "id": "presentational-role",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": "critical",
-          "html": "<input min=\"1\" required=\"\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"200\">",
-          "target": [
-            "input[value=\"200\"]"
-          ],
-          "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
-        },
-        {
-          "any": [
-            {
-              "id": "implicit-label",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element does not have an implicit (wrapped) <label>"
-            },
-            {
-              "id": "explicit-label",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element does not have an explicit <label>"
-            },
-            {
-              "id": "aria-label",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "aria-label attribute does not exist or is empty"
-            },
-            {
-              "id": "aria-labelledby",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
-            },
-            {
-              "id": "non-empty-title",
-              "data": {
-                "messageKey": "noAttr"
-              },
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has no title attribute"
-            },
-            {
-              "id": "non-empty-placeholder",
-              "data": {
-                "messageKey": "noAttr"
-              },
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has no placeholder attribute"
-            },
-            {
-              "id": "presentational-role",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": "critical",
-          "html": "<input min=\"1\" required=\"\" class=\"flex-1 min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-mono font-bold\" type=\"number\" value=\"300\">",
-          "target": [
-            "input[value=\"300\"]"
-          ],
-          "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
-        }
-      ]
     },
     {
       "id": "select-name",
-      "impact": "critical",
+      "impact": null,
       "tags": [
         "cat.forms",
         "wcag2a",
@@ -8205,228 +6921,74 @@
         {
           "any": [
             {
-              "id": "implicit-label",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element does not have an implicit (wrapped) <label>"
-            },
-            {
               "id": "explicit-label",
-              "data": null,
-              "relatedNodes": [],
+              "data": {
+                "explicitLabel": "Choose Registered Roadmap"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<label for=\"select-roadmap\" class=\"block text-xs font-bold uppercase text-[#5C5F56] dark:text-[#A8ABA0] mb-1\">Choose Registered Roadmap</label>",
+                  "target": [
+                    "label[for=\"select-roadmap\"]"
+                  ]
+                }
+              ],
               "impact": "critical",
-              "message": "Element does not have an explicit <label>"
+              "message": "Element has an explicit <label>"
             },
             {
               "id": "aria-label",
               "data": null,
               "relatedNodes": [],
               "impact": "critical",
-              "message": "aria-label attribute does not exist or is empty"
-            },
-            {
-              "id": "aria-labelledby",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
-            },
-            {
-              "id": "non-empty-title",
-              "data": {
-                "messageKey": "noAttr"
-              },
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has no title attribute"
-            },
-            {
-              "id": "presentational-role",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              "message": "aria-label attribute exists and is not empty"
             }
           ],
           "all": [],
-          "none": [],
-          "impact": "critical",
-          "html": "<select class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-medium\"></select>",
-          "target": [
-            ".sm\\:grid-cols-2 > div:nth-child(1) > select"
+          "none": [
+            {
+              "id": "hidden-explicit-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Form element has a visible explicit <label>"
+            }
           ],
-          "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          "impact": null,
+          "html": "<select id=\"select-roadmap\" aria-label=\"Choose Registered Roadmap\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-white dark:bg-[#252722] text-[#22231F] dark:text-white font-medium\"></select>",
+          "target": [
+            "#select-roadmap"
+          ]
         },
         {
           "any": [
             {
-              "id": "implicit-label",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element does not have an implicit (wrapped) <label>"
-            },
-            {
-              "id": "explicit-label",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element does not have an explicit <label>"
-            },
-            {
               "id": "aria-label",
               "data": null,
               "relatedNodes": [],
               "impact": "critical",
-              "message": "aria-label attribute does not exist or is empty"
-            },
-            {
-              "id": "aria-labelledby",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
-            },
-            {
-              "id": "non-empty-title",
-              "data": {
-                "messageKey": "noAttr"
-              },
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has no title attribute"
-            },
-            {
-              "id": "presentational-role",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              "message": "aria-label attribute exists and is not empty"
             }
           ],
           "all": [],
-          "none": [],
-          "impact": "critical",
-          "html": "<select class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\">",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(1) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select"
-          ],
-          "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
-        },
-        {
-          "any": [
+          "none": [
             {
-              "id": "implicit-label",
+              "id": "hidden-explicit-label",
               "data": null,
               "relatedNodes": [],
               "impact": "critical",
-              "message": "Element does not have an implicit (wrapped) <label>"
-            },
-            {
-              "id": "explicit-label",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element does not have an explicit <label>"
-            },
-            {
-              "id": "aria-label",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "aria-label attribute does not exist or is empty"
-            },
-            {
-              "id": "aria-labelledby",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
-            },
-            {
-              "id": "non-empty-title",
-              "data": {
-                "messageKey": "noAttr"
-              },
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has no title attribute"
-            },
-            {
-              "id": "presentational-role",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              "message": "Form element has a visible explicit <label>"
             }
           ],
-          "all": [],
-          "none": [],
-          "impact": "critical",
-          "html": "<select class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\">",
+          "impact": null,
+          "html": "<select aria-label=\"Tranche 0 Target Milestone\" class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\"></select>",
           "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(2) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select"
-          ],
-          "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
-        },
-        {
-          "any": [
-            {
-              "id": "implicit-label",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element does not have an implicit (wrapped) <label>"
-            },
-            {
-              "id": "explicit-label",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element does not have an explicit <label>"
-            },
-            {
-              "id": "aria-label",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "aria-label attribute does not exist or is empty"
-            },
-            {
-              "id": "aria-labelledby",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
-            },
-            {
-              "id": "non-empty-title",
-              "data": {
-                "messageKey": "noAttr"
-              },
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has no title attribute"
-            },
-            {
-              "id": "presentational-role",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": "critical",
-          "html": "<select class=\"w-full min-h-[48px] px-3 py-2 rounded border border-[#D5CDBD] dark:border-[#4A4E42] bg-[#F7F4EC] dark:bg-[#1E201B] text-sm font-medium\">",
-          "target": [
-            ".sm\\:flex-row.gap-4.flex-col:nth-child(3) > .sm\\:w-1\\/2.space-y-1.w-full:nth-child(1) > select"
-          ],
-          "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            "select[aria-label=\"Tranche 0 Target Milestone\"]"
+          ]
         }
       ]
     }
-  ]
+  ],
+  "incomplete": [],
+  "violations": []
 }
